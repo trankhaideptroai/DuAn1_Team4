@@ -10,20 +10,23 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class Main : Form
+    public partial class QuenMK : Form
     {
-        public Main()
+        public QuenMK()
         {
             InitializeComponent();
         }
 
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        private void QuenMK_Load(object sender, EventArgs e)
         {
-            
+
         }
-        private void Thoat_click(object sender, EventArgs e)
+
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
+            Login login = new Login();
+            login.Show();
         }
     }
 }
