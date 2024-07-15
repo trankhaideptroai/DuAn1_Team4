@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btn_quenmk = new Guna.UI2.WinForms.Guna2Button();
+            this.chkGhiNho = new Guna.UI2.WinForms.Guna2CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,12 +141,31 @@
             this.btn_quenmk.Text = "Quên mật khẩu";
             this.btn_quenmk.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
+            // chkGhiNho
+            // 
+            this.chkGhiNho.AutoSize = true;
+            this.chkGhiNho.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.chkGhiNho.CheckedState.BorderRadius = 0;
+            this.chkGhiNho.CheckedState.BorderThickness = 0;
+            this.chkGhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.chkGhiNho.Location = new System.Drawing.Point(253, 329);
+            this.chkGhiNho.Name = "chkGhiNho";
+            this.chkGhiNho.Size = new System.Drawing.Size(93, 17);
+            this.chkGhiNho.TabIndex = 7;
+            this.chkGhiNho.Text = "Nhớ mật khẩu";
+            this.chkGhiNho.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chkGhiNho.UncheckedState.BorderRadius = 0;
+            this.chkGhiNho.UncheckedState.BorderThickness = 0;
+            this.chkGhiNho.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chkGhiNho.CheckedChanged += new System.EventHandler(this.chkGhiNho_CheckedChanged);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.ClientSize = new System.Drawing.Size(764, 474);
+            this.Controls.Add(this.chkGhiNho);
             this.Controls.Add(this.btn_quenmk);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -172,6 +192,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button btn_quenmk;
+        private Guna.UI2.WinForms.Guna2CheckBox chkGhiNho;
     }
 }
 

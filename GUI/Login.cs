@@ -31,5 +31,10 @@ namespace GUI
             quenMK.Show();
             this.Hide();
         }
+
+        private void chkGhiNho_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -9,3 +9,14 @@ C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\BUS\obj\Debug\BUS.csproj.CoreCom
 C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\BUS\obj\Debug\BUS.csproj.Up2Date
 C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\BUS\obj\Debug\BUS.dll
 C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\BUS\obj\Debug\BUS.pdb
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\bin\Debug\BUS.dll
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\bin\Debug\BUS.pdb
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\bin\Debug\DAL.dll
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\bin\Debug\DTO.dll
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\bin\Debug\DAL.pdb
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\bin\Debug\DTO.pdb
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\obj\Debug\BUS.dll
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\BUS\obj\Debug\BUS.pdb
