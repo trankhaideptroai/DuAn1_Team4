@@ -19,11 +19,37 @@ namespace GUI
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
-            
+
         }
-        private void Thoat_click(object sender, EventArgs e)
+
+        private void label4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
