@@ -28,10 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
             this.guna2ImageCheckBox12 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox11 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox10 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
@@ -44,61 +48,108 @@
             this.guna2ImageCheckBox3 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox2 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.txtTenKH = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnXuatPDF = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.txtMaNV = new System.Windows.Forms.TextBox();
-            this.txtTongTien = new System.Windows.Forms.TextBox();
-            this.txtTrangThai = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtTimKiem = new System.Windows.Forms.TextBox();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnTimKiem = new System.Windows.Forms.Button();
-            this.btnLuu = new System.Windows.Forms.Button();
-            this.dtgvHoaDon = new System.Windows.Forms.DataGridView();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage7.SuspendLayout();
             this.tab_control.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvHoaDon)).BeginInit();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2BorderlessForm1
+            // tabPage8
             // 
-            this.guna2BorderlessForm1.ContainerControl = this;
-            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            this.tabPage8.Location = new System.Drawing.Point(184, 4);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Thoát";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            this.tabPage8.Enter += new System.EventHandler(this.Thoat_click);
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox12);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox11);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox10);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox9);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox8);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox7);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox6);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox5);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox4);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox3);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox2);
+            this.tabPage7.Controls.Add(this.guna2ImageCheckBox1);
+            this.tabPage7.Location = new System.Drawing.Point(184, 4);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Bàn ăn";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(184, 4);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Hoá đơn";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Thống kê";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Hoá đơn";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Thực đơn";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(184, 4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Trang chủ";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tab_control
             // 
             this.tab_control.Alignment = System.Windows.Forms.TabAlignment.Left;
             this.tab_control.Controls.Add(this.tabPage1);
             this.tab_control.Controls.Add(this.tabPage2);
-            this.tab_control.Controls.Add(this.tabPage7);
             this.tab_control.Controls.Add(this.tabPage3);
             this.tab_control.Controls.Add(this.tabPage4);
             this.tab_control.Controls.Add(this.tabPage5);
-            this.tab_control.Controls.Add(this.tabPage6);
-            this.tab_control.ItemSize = new System.Drawing.Size(180, 90);
-            this.tab_control.Location = new System.Drawing.Point(0, 0);
+            this.tab_control.Controls.Add(this.tabPage7);
+            this.tab_control.Controls.Add(this.tabPage8);
+            this.tab_control.ItemSize = new System.Drawing.Size(180, 85);
+            this.tab_control.Location = new System.Drawing.Point(1, 0);
             this.tab_control.Name = "tab_control";
             this.tab_control.SelectedIndex = 0;
+            this.tab_control.ShowToolTips = true;
             this.tab_control.Size = new System.Drawing.Size(1456, 641);
             this.tab_control.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.tab_control.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
@@ -115,31 +166,10 @@
             this.tab_control.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.tab_control.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
             this.tab_control.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.tab_control.TabButtonSize = new System.Drawing.Size(180, 90);
+            this.tab_control.TabButtonSize = new System.Drawing.Size(180, 85);
             this.tab_control.TabIndex = 0;
             this.tab_control.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox12);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox11);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox10);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox9);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox8);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox7);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox6);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox5);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox4);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox3);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox2);
-            this.tabPage1.Controls.Add(this.guna2ImageCheckBox1);
-            this.tabPage1.Location = new System.Drawing.Point(184, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage1.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Trang chủ";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tab_control.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // guna2ImageCheckBox12
             // 
@@ -151,10 +181,10 @@
             this.guna2ImageCheckBox12.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox12.ImageRotate = 0F;
             this.guna2ImageCheckBox12.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox12.Location = new System.Drawing.Point(27, 401);
+            this.guna2ImageCheckBox12.Location = new System.Drawing.Point(71, 414);
             this.guna2ImageCheckBox12.Name = "guna2ImageCheckBox12";
-            this.guna2ImageCheckBox12.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox12.TabIndex = 25;
+            this.guna2ImageCheckBox12.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox12.TabIndex = 37;
             // 
             // guna2ImageCheckBox11
             // 
@@ -166,10 +196,10 @@
             this.guna2ImageCheckBox11.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox11.ImageRotate = 0F;
             this.guna2ImageCheckBox11.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox11.Location = new System.Drawing.Point(232, 401);
+            this.guna2ImageCheckBox11.Location = new System.Drawing.Point(276, 414);
             this.guna2ImageCheckBox11.Name = "guna2ImageCheckBox11";
-            this.guna2ImageCheckBox11.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox11.TabIndex = 24;
+            this.guna2ImageCheckBox11.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox11.TabIndex = 36;
             // 
             // guna2ImageCheckBox10
             // 
@@ -181,10 +211,10 @@
             this.guna2ImageCheckBox10.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox10.ImageRotate = 0F;
             this.guna2ImageCheckBox10.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox10.Location = new System.Drawing.Point(657, 401);
+            this.guna2ImageCheckBox10.Location = new System.Drawing.Point(701, 414);
             this.guna2ImageCheckBox10.Name = "guna2ImageCheckBox10";
-            this.guna2ImageCheckBox10.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox10.TabIndex = 23;
+            this.guna2ImageCheckBox10.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox10.TabIndex = 34;
             // 
             // guna2ImageCheckBox9
             // 
@@ -196,10 +226,10 @@
             this.guna2ImageCheckBox9.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox9.ImageRotate = 0F;
             this.guna2ImageCheckBox9.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox9.Location = new System.Drawing.Point(439, 401);
+            this.guna2ImageCheckBox9.Location = new System.Drawing.Point(483, 414);
             this.guna2ImageCheckBox9.Name = "guna2ImageCheckBox9";
-            this.guna2ImageCheckBox9.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox9.TabIndex = 23;
+            this.guna2ImageCheckBox9.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox9.TabIndex = 35;
             // 
             // guna2ImageCheckBox8
             // 
@@ -211,10 +241,10 @@
             this.guna2ImageCheckBox8.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox8.ImageRotate = 0F;
             this.guna2ImageCheckBox8.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox8.Location = new System.Drawing.Point(232, 217);
+            this.guna2ImageCheckBox8.Location = new System.Drawing.Point(276, 230);
             this.guna2ImageCheckBox8.Name = "guna2ImageCheckBox8";
-            this.guna2ImageCheckBox8.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox8.TabIndex = 22;
+            this.guna2ImageCheckBox8.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox8.TabIndex = 33;
             // 
             // guna2ImageCheckBox7
             // 
@@ -226,10 +256,10 @@
             this.guna2ImageCheckBox7.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox7.ImageRotate = 0F;
             this.guna2ImageCheckBox7.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox7.Location = new System.Drawing.Point(27, 217);
+            this.guna2ImageCheckBox7.Location = new System.Drawing.Point(71, 230);
             this.guna2ImageCheckBox7.Name = "guna2ImageCheckBox7";
-            this.guna2ImageCheckBox7.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox7.TabIndex = 21;
+            this.guna2ImageCheckBox7.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox7.TabIndex = 32;
             // 
             // guna2ImageCheckBox6
             // 
@@ -241,10 +271,10 @@
             this.guna2ImageCheckBox6.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox6.ImageRotate = 0F;
             this.guna2ImageCheckBox6.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox6.Location = new System.Drawing.Point(232, 21);
+            this.guna2ImageCheckBox6.Location = new System.Drawing.Point(276, 34);
             this.guna2ImageCheckBox6.Name = "guna2ImageCheckBox6";
-            this.guna2ImageCheckBox6.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox6.TabIndex = 20;
+            this.guna2ImageCheckBox6.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox6.TabIndex = 31;
             // 
             // guna2ImageCheckBox5
             // 
@@ -256,10 +286,10 @@
             this.guna2ImageCheckBox5.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox5.ImageRotate = 0F;
             this.guna2ImageCheckBox5.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox5.Location = new System.Drawing.Point(657, 21);
+            this.guna2ImageCheckBox5.Location = new System.Drawing.Point(701, 34);
             this.guna2ImageCheckBox5.Name = "guna2ImageCheckBox5";
-            this.guna2ImageCheckBox5.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox5.TabIndex = 19;
+            this.guna2ImageCheckBox5.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox5.TabIndex = 30;
             // 
             // guna2ImageCheckBox4
             // 
@@ -271,10 +301,10 @@
             this.guna2ImageCheckBox4.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox4.ImageRotate = 0F;
             this.guna2ImageCheckBox4.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox4.Location = new System.Drawing.Point(439, 21);
+            this.guna2ImageCheckBox4.Location = new System.Drawing.Point(483, 34);
             this.guna2ImageCheckBox4.Name = "guna2ImageCheckBox4";
-            this.guna2ImageCheckBox4.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox4.TabIndex = 18;
+            this.guna2ImageCheckBox4.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox4.TabIndex = 29;
             // 
             // guna2ImageCheckBox3
             // 
@@ -286,10 +316,10 @@
             this.guna2ImageCheckBox3.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox3.ImageRotate = 0F;
             this.guna2ImageCheckBox3.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox3.Location = new System.Drawing.Point(657, 217);
+            this.guna2ImageCheckBox3.Location = new System.Drawing.Point(701, 230);
             this.guna2ImageCheckBox3.Name = "guna2ImageCheckBox3";
-            this.guna2ImageCheckBox3.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox3.TabIndex = 17;
+            this.guna2ImageCheckBox3.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox3.TabIndex = 28;
             // 
             // guna2ImageCheckBox2
             // 
@@ -301,10 +331,10 @@
             this.guna2ImageCheckBox2.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox2.ImageRotate = 0F;
             this.guna2ImageCheckBox2.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox2.Location = new System.Drawing.Point(439, 217);
+            this.guna2ImageCheckBox2.Location = new System.Drawing.Point(483, 230);
             this.guna2ImageCheckBox2.Name = "guna2ImageCheckBox2";
-            this.guna2ImageCheckBox2.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox2.TabIndex = 16;
+            this.guna2ImageCheckBox2.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox2.TabIndex = 27;
             // 
             // guna2ImageCheckBox1
             // 
@@ -316,325 +346,30 @@
             this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox1.ImageRotate = 0F;
             this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(27, 21);
+            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(71, 34);
             this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
-            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(166, 152);
-            this.guna2ImageCheckBox1.TabIndex = 15;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(184, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Thực đơn";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(184, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage3.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Hoá đơn";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(184, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage4.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Thống kê";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.txtTenKH);
-            this.tabPage5.Controls.Add(this.label4);
-            this.tabPage5.Controls.Add(this.btnXuatPDF);
-            this.tabPage5.Controls.Add(this.dateTimePicker1);
-            this.tabPage5.Controls.Add(this.txtMaNV);
-            this.tabPage5.Controls.Add(this.txtTongTien);
-            this.tabPage5.Controls.Add(this.txtTrangThai);
-            this.tabPage5.Controls.Add(this.label7);
-            this.tabPage5.Controls.Add(this.label3);
-            this.tabPage5.Controls.Add(this.label2);
-            this.tabPage5.Controls.Add(this.label1);
-            this.tabPage5.Controls.Add(this.txtTimKiem);
-            this.tabPage5.Controls.Add(this.btnXoa);
-            this.tabPage5.Controls.Add(this.btnSua);
-            this.tabPage5.Controls.Add(this.btnTimKiem);
-            this.tabPage5.Controls.Add(this.btnLuu);
-            this.tabPage5.Controls.Add(this.dtgvHoaDon);
-            this.tabPage5.Location = new System.Drawing.Point(184, 4);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage5.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Hoá đơn";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
-            // 
-            // txtTenKH
-            // 
-            this.txtTenKH.Location = new System.Drawing.Point(188, 108);
-            this.txtTenKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(112, 20);
-            this.txtTenKH.TabIndex = 22;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(86, 113);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 13);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Tên Khách Hàng";
-            // 
-            // btnXuatPDF
-            // 
-            this.btnXuatPDF.Location = new System.Drawing.Point(832, 345);
-            this.btnXuatPDF.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnXuatPDF.Name = "btnXuatPDF";
-            this.btnXuatPDF.Size = new System.Drawing.Size(116, 49);
-            this.btnXuatPDF.TabIndex = 20;
-            this.btnXuatPDF.Text = "Xuất PDF";
-            this.btnXuatPDF.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(188, 59);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(134, 20);
-            this.dateTimePicker1.TabIndex = 19;
-            // 
-            // txtMaNV
-            // 
-            this.txtMaNV.Location = new System.Drawing.Point(188, 261);
-            this.txtMaNV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.Size = new System.Drawing.Size(112, 20);
-            this.txtMaNV.TabIndex = 16;
-            // 
-            // txtTongTien
-            // 
-            this.txtTongTien.Location = new System.Drawing.Point(188, 210);
-            this.txtTongTien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtTongTien.Name = "txtTongTien";
-            this.txtTongTien.Size = new System.Drawing.Size(112, 20);
-            this.txtTongTien.TabIndex = 15;
-            // 
-            // txtTrangThai
-            // 
-            this.txtTrangThai.Location = new System.Drawing.Point(188, 164);
-            this.txtTrangThai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtTrangThai.Name = "txtTrangThai";
-            this.txtTrangThai.Size = new System.Drawing.Size(112, 20);
-            this.txtTrangThai.TabIndex = 14;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(86, 261);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Mã Nhân Viên";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(86, 164);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Trạng Thái";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(86, 210);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Tổng Tiền";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(88, 63);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 26);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Ngày lập \r\n\r\n";
-            // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.Location = new System.Drawing.Point(400, 365);
-            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(156, 20);
-            this.txtTimKiem.TabIndex = 6;
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(170, 359);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(64, 28);
-            this.btnXoa.TabIndex = 5;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            // 
-            // btnSua
-            // 
-            this.btnSua.Location = new System.Drawing.Point(274, 359);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(64, 28);
-            this.btnSua.TabIndex = 4;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Location = new System.Drawing.Point(588, 356);
-            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(64, 28);
-            this.btnTimKiem.TabIndex = 3;
-            this.btnTimKiem.Text = "Tìm Kiếm";
-            this.btnTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // btnLuu
-            // 
-            this.btnLuu.Location = new System.Drawing.Point(47, 359);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(64, 28);
-            this.btnLuu.TabIndex = 1;
-            this.btnLuu.Text = "Lưu";
-            this.btnLuu.UseVisualStyleBackColor = true;
-            // 
-            // dtgvHoaDon
-            // 
-            this.dtgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvHoaDon.Location = new System.Drawing.Point(400, 20);
-            this.dtgvHoaDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dtgvHoaDon.Name = "dtgvHoaDon";
-            this.dtgvHoaDon.RowHeadersWidth = 62;
-            this.dtgvHoaDon.RowTemplate.Height = 28;
-            this.dtgvHoaDon.Size = new System.Drawing.Size(568, 300);
-            this.dtgvHoaDon.TabIndex = 0;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.textBox5);
-            this.tabPage6.Controls.Add(this.button7);
-            this.tabPage6.Controls.Add(this.button6);
-            this.tabPage6.Controls.Add(this.dataGridView2);
-            this.tabPage6.Location = new System.Drawing.Point(184, 4);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage6.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Thống kê Doanh Số";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(135, 322);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(219, 20);
-            this.textBox5.TabIndex = 3;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(377, 315);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(83, 30);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Tìm Kiếm";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(582, 313);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(89, 35);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Xuất PDF";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(98, 34);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 62;
-            this.dataGridView2.RowTemplate.Height = 28;
-            this.dataGridView2.Size = new System.Drawing.Size(658, 228);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(184, 4);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Nhân viên";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox1.TabIndex = 26;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1294, 617);
+            this.ClientSize = new System.Drawing.Size(1457, 617);
             this.Controls.Add(this.tab_control);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.Text = "Main";
+            this.tabPage7.ResumeLayout(false);
             this.tab_control.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvHoaDon)).EndInit();
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
-        private Guna.UI2.WinForms.Guna2TabControl tab_control;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TabPage tabPage6;
-        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox1;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabPage tabPage7;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox12;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox11;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox10;
@@ -646,27 +381,12 @@
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox4;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox3;
         private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox2;
-        private System.Windows.Forms.TextBox txtTimKiem;
-        private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button btnTimKiem;
-        private System.Windows.Forms.Button btnLuu;
-        private System.Windows.Forms.DataGridView dtgvHoaDon;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtTrangThai;
-        private System.Windows.Forms.TextBox txtMaNV;
-        private System.Windows.Forms.TextBox txtTongTien;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button btnXuatPDF;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.TextBox txtTenKH;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TabPage tabPage7;
+        private Guna.UI2.WinForms.Guna2ImageCheckBox guna2ImageCheckBox1;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage1;
+        private Guna.UI2.WinForms.Guna2TabControl tab_control;
     }
 }

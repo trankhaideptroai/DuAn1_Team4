@@ -23,5 +23,23 @@ namespace GUI
             h.Show();
             this.Hide();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            QuenMK quenMK = new QuenMK();
+            Login login = new Login();
+            quenMK.Show();
+            this.Hide();
+        }
+
+        private void chkGhiNho_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

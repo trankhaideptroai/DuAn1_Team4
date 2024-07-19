@@ -28,31 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_login = new Guna.UI2.WinForms.Guna2Button();
             this.txt_matkhau = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_taikhoan = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.btn_quenmk = new Guna.UI2.WinForms.Guna2Button();
+            this.chk_GhiNho = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Button1
+            // btn_login
             // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(336, 352);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(136, 45);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "Login";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btn_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_login.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_login.ForeColor = System.Drawing.Color.White;
+            this.btn_login.Location = new System.Drawing.Point(347, 352);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(136, 45);
+            this.btn_login.TabIndex = 0;
+            this.btn_login.Text = "Login";
+            this.btn_login.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // txt_matkhau
             // 
@@ -95,28 +96,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(186, 235);
+            this.label1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(155, 231);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.Size = new System.Drawing.Size(92, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tài khoản :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(189, 295);
+            this.label2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(154, 298);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.Size = new System.Drawing.Size(93, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Mật khẩu :";
-            // 
-            // guna2BorderlessForm1
-            // 
-            this.guna2BorderlessForm1.ContainerControl = this;
-            this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2BorderlessForm1.TransparentWhileDrag = true;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // guna2CirclePictureBox1
             // 
@@ -132,20 +131,71 @@
             this.guna2CirclePictureBox1.TabIndex = 3;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
+            // btn_quenmk
+            // 
+            this.btn_quenmk.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_quenmk.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_quenmk.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_quenmk.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_quenmk.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_quenmk.ForeColor = System.Drawing.Color.White;
+            this.btn_quenmk.Location = new System.Drawing.Point(445, 324);
+            this.btn_quenmk.Name = "btn_quenmk";
+            this.btn_quenmk.Size = new System.Drawing.Size(108, 22);
+            this.btn_quenmk.TabIndex = 6;
+            this.btn_quenmk.Text = "Quên mật khẩu";
+            this.btn_quenmk.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // chk_GhiNho
+            // 
+            this.chk_GhiNho.AutoSize = true;
+            this.chk_GhiNho.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.chk_GhiNho.CheckedState.BorderRadius = 0;
+            this.chk_GhiNho.CheckedState.BorderThickness = 0;
+            this.chk_GhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.chk_GhiNho.Location = new System.Drawing.Point(253, 329);
+            this.chk_GhiNho.Name = "chk_GhiNho";
+            this.chk_GhiNho.Size = new System.Drawing.Size(93, 17);
+            this.chk_GhiNho.TabIndex = 7;
+            this.chk_GhiNho.Text = "Nhớ mật khẩu";
+            this.chk_GhiNho.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chk_GhiNho.UncheckedState.BorderRadius = 0;
+            this.chk_GhiNho.UncheckedState.BorderThickness = 0;
+            this.chk_GhiNho.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chk_GhiNho.CheckedChanged += new System.EventHandler(this.chkGhiNho_CheckedChanged);
+            // 
+            // guna2TileButton1
+            // 
+            this.guna2TileButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2TileButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2TileButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2TileButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2TileButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2TileButton1.Location = new System.Drawing.Point(618, 425);
+            this.guna2TileButton1.Name = "guna2TileButton1";
+            this.guna2TileButton1.Size = new System.Drawing.Size(134, 37);
+            this.guna2TileButton1.TabIndex = 8;
+            this.guna2TileButton1.Text = "Góp ý";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.ClientSize = new System.Drawing.Size(764, 474);
+            this.Controls.Add(this.guna2TileButton1);
+            this.Controls.Add(this.chk_GhiNho);
+            this.Controls.Add(this.btn_quenmk);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.txt_taikhoan);
             this.Controls.Add(this.txt_matkhau);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btn_login);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Login";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
@@ -156,13 +206,15 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btn_login;
         private Guna.UI2.WinForms.Guna2TextBox txt_matkhau;
         private Guna.UI2.WinForms.Guna2TextBox txt_taikhoan;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private Guna.UI2.WinForms.Guna2Button btn_quenmk;
+        private Guna.UI2.WinForms.Guna2CheckBox chk_GhiNho;
+        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
     }
 }
 

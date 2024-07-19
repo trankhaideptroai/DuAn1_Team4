@@ -7,12 +7,12 @@ C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.CoreCom
 C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\DAL\obj\Debug\DAL.dll
 C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main\DAL\obj\Debug\DAL.pdb
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\bin\Debug\DAL.dll
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\bin\Debug\DAL.pdb
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\bin\Debug\DTO.dll
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\bin\Debug\DTO.pdb
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.Up2Date
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\obj\Debug\DAL.dll
-D:\DuAn1_Team4\DuAn1_Team4-main\DAL\obj\Debug\DAL.pdb
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\bin\Debug\DAL.dll
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\bin\Debug\DAL.pdb
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\bin\Debug\DTO.dll
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\bin\Debug\DTO.pdb
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\obj\Debug\DAL.dll
+C:\Users\TranTanKhai\Downloads\DuAn1_Team4-main (1)\DuAn1_Team4-main\DAL\obj\Debug\DAL.pdb
