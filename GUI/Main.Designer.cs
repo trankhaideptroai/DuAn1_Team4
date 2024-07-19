@@ -30,12 +30,6 @@
         {
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
             this.guna2ImageCheckBox12 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox11 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox10 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
@@ -48,6 +42,12 @@
             this.guna2ImageCheckBox3 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox2 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage7.SuspendLayout();
             this.tab_control.SuspendLayout();
             this.SuspendLayout();
@@ -84,92 +84,6 @@
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Bàn ăn";
             this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(184, 4);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Hoá đơn";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(184, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Thống kê";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(184, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Hoá đơn";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(184, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Thực đơn";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(184, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1268, 633);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Trang chủ";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tab_control
-            // 
-            this.tab_control.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.tab_control.Controls.Add(this.tabPage1);
-            this.tab_control.Controls.Add(this.tabPage2);
-            this.tab_control.Controls.Add(this.tabPage3);
-            this.tab_control.Controls.Add(this.tabPage4);
-            this.tab_control.Controls.Add(this.tabPage5);
-            this.tab_control.Controls.Add(this.tabPage7);
-            this.tab_control.Controls.Add(this.tabPage8);
-            this.tab_control.ItemSize = new System.Drawing.Size(180, 85);
-            this.tab_control.Location = new System.Drawing.Point(1, 0);
-            this.tab_control.Name = "tab_control";
-            this.tab_control.SelectedIndex = 0;
-            this.tab_control.ShowToolTips = true;
-            this.tab_control.Size = new System.Drawing.Size(1456, 641);
-            this.tab_control.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.tab_control.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.tab_control.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tab_control.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
-            this.tab_control.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.tab_control.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.tab_control.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.tab_control.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tab_control.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.tab_control.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.tab_control.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.tab_control.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
-            this.tab_control.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tab_control.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
-            this.tab_control.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.tab_control.TabButtonSize = new System.Drawing.Size(180, 85);
-            this.tab_control.TabIndex = 0;
-            this.tab_control.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.tab_control.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // guna2ImageCheckBox12
             // 
@@ -350,6 +264,92 @@
             this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
             this.guna2ImageCheckBox1.Size = new System.Drawing.Size(167, 152);
             this.guna2ImageCheckBox1.TabIndex = 26;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(184, 4);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Nhân viên";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Thống kê";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Hoá đơn";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Thực đơn";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(184, 4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1268, 633);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Trang chủ";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tab_control
+            // 
+            this.tab_control.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.tab_control.Controls.Add(this.tabPage1);
+            this.tab_control.Controls.Add(this.tabPage2);
+            this.tab_control.Controls.Add(this.tabPage3);
+            this.tab_control.Controls.Add(this.tabPage4);
+            this.tab_control.Controls.Add(this.tabPage5);
+            this.tab_control.Controls.Add(this.tabPage7);
+            this.tab_control.Controls.Add(this.tabPage8);
+            this.tab_control.ItemSize = new System.Drawing.Size(180, 85);
+            this.tab_control.Location = new System.Drawing.Point(1, 0);
+            this.tab_control.Name = "tab_control";
+            this.tab_control.SelectedIndex = 0;
+            this.tab_control.ShowToolTips = true;
+            this.tab_control.Size = new System.Drawing.Size(1456, 641);
+            this.tab_control.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.tab_control.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.tab_control.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tab_control.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
+            this.tab_control.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.tab_control.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.tab_control.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.tab_control.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tab_control.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.tab_control.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.tab_control.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.tab_control.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
+            this.tab_control.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tab_control.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
+            this.tab_control.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
+            this.tab_control.TabButtonSize = new System.Drawing.Size(180, 85);
+            this.tab_control.TabIndex = 0;
+            this.tab_control.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.tab_control.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // Main
             // 
