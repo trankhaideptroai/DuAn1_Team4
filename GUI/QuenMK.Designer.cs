@@ -77,6 +77,7 @@
             this.btn_laymk.Size = new System.Drawing.Size(127, 51);
             this.btn_laymk.TabIndex = 1;
             this.btn_laymk.Text = "Lấy Mật Khẩu Mới";
+            this.btn_laymk.Click += new System.EventHandler(this.btn_laymk_Click);
             // 
             // guna2TaskBarProgress1
             // 
