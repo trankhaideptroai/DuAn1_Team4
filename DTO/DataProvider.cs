@@ -11,12 +11,12 @@ namespace BUS
 {
     internal class DataProvider
     {
-       private string connectionstr = @"Data Source=DESKTOP-3OM6LVM;Initial Catalog=DuAn1;User ID=sa;Trust Server Certificate=True";
+       public string connectionstr = @"Data Source=DESKTOP-3OM6LVM;Initial Catalog=database_duan1;Integrated Security=True";
         public DataTable ExcuteQuery(string querry)
         {
             DataTable data = new DataTable();
             using (SqlConnection connnection = new SqlConnection(connectionstr))
-            {
+            {   
                 connnection.Open();
                 SqlCommand command = new SqlCommand(querry, connnection);
                 SqlDataAdapter adapter = new SqlDataAdapter();

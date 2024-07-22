@@ -35,7 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btn_quenmk = new Guna.UI2.WinForms.Guna2Button();
-            this.chk_GhiNho = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chkGhiNho = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -73,6 +73,7 @@
             this.txt_matkhau.SelectedText = "";
             this.txt_matkhau.Size = new System.Drawing.Size(300, 36);
             this.txt_matkhau.TabIndex = 1;
+            this.txt_matkhau.TextChanged += new System.EventHandler(this.txt_matkhau_TextChanged);
             // 
             // txt_taikhoan
             // 
@@ -146,23 +147,23 @@
             this.btn_quenmk.Text = "Quên mật khẩu";
             this.btn_quenmk.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // chk_GhiNho
+            // chkGhiNho
             // 
-            this.chk_GhiNho.AutoSize = true;
-            this.chk_GhiNho.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.chk_GhiNho.CheckedState.BorderRadius = 0;
-            this.chk_GhiNho.CheckedState.BorderThickness = 0;
-            this.chk_GhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.chk_GhiNho.Location = new System.Drawing.Point(253, 329);
-            this.chk_GhiNho.Name = "chk_GhiNho";
-            this.chk_GhiNho.Size = new System.Drawing.Size(93, 17);
-            this.chk_GhiNho.TabIndex = 7;
-            this.chk_GhiNho.Text = "Nhớ mật khẩu";
-            this.chk_GhiNho.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chk_GhiNho.UncheckedState.BorderRadius = 0;
-            this.chk_GhiNho.UncheckedState.BorderThickness = 0;
-            this.chk_GhiNho.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chk_GhiNho.CheckedChanged += new System.EventHandler(this.chkGhiNho_CheckedChanged);
+            this.chkGhiNho.AutoSize = true;
+            this.chkGhiNho.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.chkGhiNho.CheckedState.BorderRadius = 0;
+            this.chkGhiNho.CheckedState.BorderThickness = 0;
+            this.chkGhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.chkGhiNho.Location = new System.Drawing.Point(253, 329);
+            this.chkGhiNho.Name = "chkGhiNho";
+            this.chkGhiNho.Size = new System.Drawing.Size(93, 17);
+            this.chkGhiNho.TabIndex = 7;
+            this.chkGhiNho.Text = "Nhớ mật khẩu";
+            this.chkGhiNho.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chkGhiNho.UncheckedState.BorderRadius = 0;
+            this.chkGhiNho.UncheckedState.BorderThickness = 0;
+            this.chkGhiNho.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.chkGhiNho.CheckedChanged += new System.EventHandler(this.chkGhiNho_CheckedChanged);
             // 
             // guna2TileButton1
             // 
@@ -185,7 +186,7 @@
             this.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.ClientSize = new System.Drawing.Size(764, 474);
             this.Controls.Add(this.guna2TileButton1);
-            this.Controls.Add(this.chk_GhiNho);
+            this.Controls.Add(this.chkGhiNho);
             this.Controls.Add(this.btn_quenmk);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -213,7 +214,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button btn_quenmk;
-        private Guna.UI2.WinForms.Guna2CheckBox chk_GhiNho;
+        private Guna.UI2.WinForms.Guna2CheckBox chkGhiNho;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
     }
 }
