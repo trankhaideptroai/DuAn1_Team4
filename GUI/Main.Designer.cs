@@ -44,7 +44,6 @@
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnXuatPDF = new System.Windows.Forms.Button();
             this.dtgvThongKe = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -52,12 +51,12 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.btn_add = new System.Windows.Forms.Button();
-            this.btn_M = new System.Windows.Forms.Button();
-            this.btn_ds = new System.Windows.Forms.Button();
-            this.btn_f = new System.Windows.Forms.Button();
-            this.btn_upd = new System.Windows.Forms.Button();
             this.btn_del = new System.Windows.Forms.Button();
+            this.btn_upd = new System.Windows.Forms.Button();
+            this.btn_f = new System.Windows.Forms.Button();
+            this.btn_ds = new System.Windows.Forms.Button();
+            this.btn_M = new System.Windows.Forms.Button();
+            this.btn_add = new System.Windows.Forms.Button();
             this.tabPage7.SuspendLayout();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvThongKe)).BeginInit();
@@ -305,7 +304,6 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.btnXuatPDF);
             this.tabPage4.Controls.Add(this.dtgvThongKe);
             this.tabPage4.Location = new System.Drawing.Point(184, 4);
@@ -316,17 +314,6 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thống kê";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(895, 16);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnXuatPDF
             // 
@@ -343,14 +330,17 @@
             // 
             // dtgvThongKe
             // 
+            this.dtgvThongKe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvThongKe.Location = new System.Drawing.Point(70, 66);
             this.dtgvThongKe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgvThongKe.Name = "dtgvThongKe";
             this.dtgvThongKe.RowHeadersWidth = 62;
             this.dtgvThongKe.RowTemplate.Height = 28;
+            this.dtgvThongKe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgvThongKe.Size = new System.Drawing.Size(916, 287);
             this.dtgvThongKe.TabIndex = 0;
+            this.dtgvThongKe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvThongKe_CellContentClick);
             // 
             // tabPage3
             // 
@@ -441,53 +431,17 @@
             this.tabPage6.Text = "Nhập kho";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // btn_add
+            // btn_del
             // 
-            this.btn_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_add.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_add.Location = new System.Drawing.Point(237, 96);
-            this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(243, 69);
-            this.btn_add.TabIndex = 0;
-            this.btn_add.Text = "Thêm";
-            this.btn_add.UseVisualStyleBackColor = true;
-            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
-            // 
-            // btn_M
-            // 
-            this.btn_M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_M.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_M.Location = new System.Drawing.Point(720, 473);
-            this.btn_M.Name = "btn_M";
-            this.btn_M.Size = new System.Drawing.Size(243, 69);
-            this.btn_M.TabIndex = 2;
-            this.btn_M.Text = "Trang chủ";
-            this.btn_M.UseVisualStyleBackColor = true;
-            this.btn_M.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // btn_ds
-            // 
-            this.btn_ds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ds.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ds.Location = new System.Drawing.Point(237, 473);
-            this.btn_ds.Name = "btn_ds";
-            this.btn_ds.Size = new System.Drawing.Size(243, 69);
-            this.btn_ds.TabIndex = 3;
-            this.btn_ds.Text = "Xem danh sách";
-            this.btn_ds.UseVisualStyleBackColor = true;
-            this.btn_ds.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // btn_f
-            // 
-            this.btn_f.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_f.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_f.Location = new System.Drawing.Point(720, 291);
-            this.btn_f.Name = "btn_f";
-            this.btn_f.Size = new System.Drawing.Size(243, 69);
-            this.btn_f.TabIndex = 4;
-            this.btn_f.Text = "Tìm kiếm";
-            this.btn_f.UseVisualStyleBackColor = true;
-            this.btn_f.Click += new System.EventHandler(this.button5_Click);
+            this.btn_del.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_del.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_del.Location = new System.Drawing.Point(720, 96);
+            this.btn_del.Name = "btn_del";
+            this.btn_del.Size = new System.Drawing.Size(243, 69);
+            this.btn_del.TabIndex = 6;
+            this.btn_del.Text = "Xóa";
+            this.btn_del.UseVisualStyleBackColor = true;
+            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
             // 
             // btn_upd
             // 
@@ -501,17 +455,53 @@
             this.btn_upd.UseVisualStyleBackColor = true;
             this.btn_upd.Click += new System.EventHandler(this.button6_Click);
             // 
-            // btn_del
+            // btn_f
             // 
-            this.btn_del.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_del.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_del.Location = new System.Drawing.Point(720, 96);
-            this.btn_del.Name = "btn_del";
-            this.btn_del.Size = new System.Drawing.Size(243, 69);
-            this.btn_del.TabIndex = 6;
-            this.btn_del.Text = "Xóa";
-            this.btn_del.UseVisualStyleBackColor = true;
-            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
+            this.btn_f.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_f.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_f.Location = new System.Drawing.Point(720, 291);
+            this.btn_f.Name = "btn_f";
+            this.btn_f.Size = new System.Drawing.Size(243, 69);
+            this.btn_f.TabIndex = 4;
+            this.btn_f.Text = "Tìm kiếm";
+            this.btn_f.UseVisualStyleBackColor = true;
+            this.btn_f.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // btn_ds
+            // 
+            this.btn_ds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ds.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ds.Location = new System.Drawing.Point(237, 473);
+            this.btn_ds.Name = "btn_ds";
+            this.btn_ds.Size = new System.Drawing.Size(243, 69);
+            this.btn_ds.TabIndex = 3;
+            this.btn_ds.Text = "Xem danh sách";
+            this.btn_ds.UseVisualStyleBackColor = true;
+            this.btn_ds.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btn_M
+            // 
+            this.btn_M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_M.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_M.Location = new System.Drawing.Point(720, 473);
+            this.btn_M.Name = "btn_M";
+            this.btn_M.Size = new System.Drawing.Size(243, 69);
+            this.btn_M.TabIndex = 2;
+            this.btn_M.Text = "Trang chủ";
+            this.btn_M.UseVisualStyleBackColor = true;
+            this.btn_M.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btn_add
+            // 
+            this.btn_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_add.Location = new System.Drawing.Point(237, 96);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(243, 69);
+            this.btn_add.TabIndex = 0;
+            this.btn_add.Text = "Thêm";
+            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // Main
             // 
@@ -558,7 +548,6 @@
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.Button btnXuatPDF;
         private System.Windows.Forms.DataGridView dtgvThongKe;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.Button btn_del;
         private System.Windows.Forms.Button btn_upd;

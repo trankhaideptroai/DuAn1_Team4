@@ -198,5 +198,10 @@ namespace GUI
         {
             tab_control.SelectTab(tabPage1);
         }
+
+        private void dtgvThongKe_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
     }
 }

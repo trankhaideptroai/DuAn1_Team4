@@ -133,4 +133,25 @@
   <data name="ban_checked" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ban_checked.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lưu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Nhập kho\Symbols\Lưu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Nhập kho\Symbols\Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Nhập kho\Symbols\Reload.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sửa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Nhập kho\Symbols\Sửa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thêm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Nhập kho\Symbols\Thêm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tìm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Nhập kho\Symbols\Tìm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xóa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Nhập kho\Symbols\Xóa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

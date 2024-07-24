@@ -181,8 +181,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="Menu.png" />
+    <None Include="Nhập kho\Symbols\Lưu.jpg" />
+    <None Include="Nhập kho\Symbols\Menu.png" />
+    <None Include="Nhập kho\Symbols\Reload.jpg" />
+    <None Include="Nhập kho\Symbols\Sửa.jpg" />
+    <None Include="Nhập kho\Symbols\Thêm.jpg" />
+    <None Include="Nhập kho\Symbols\Tìm.jpg" />
+    <None Include="Nhập kho\Symbols\Xóa.jpg" />
     <Content Include="Reload.jpg" />
     <None Include="Resources\Thêm.bmp" />
+    <None Include="Resources\Menu.png" />
     <Content Include="Sửa.jpg" />
     <Content Include="Thêm.jpg" />
     <Content Include="Tìm.jpg" />

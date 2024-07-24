@@ -49,7 +49,7 @@
             this.btn_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_login.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_login.ForeColor = System.Drawing.Color.White;
-            this.btn_login.Location = new System.Drawing.Point(347, 352);
+            this.btn_login.Location = new System.Drawing.Point(338, 356);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(136, 45);
             this.btn_login.TabIndex = 0;
@@ -105,7 +105,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(155, 231);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 29);
+            this.label1.Size = new System.Drawing.Size(114, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tài khoản :";
             // 
@@ -116,7 +116,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(154, 298);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 29);
+            this.label2.Size = new System.Drawing.Size(114, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "Mật khẩu :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -159,7 +159,7 @@
             this.chkGhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.chkGhiNho.Location = new System.Drawing.Point(253, 329);
             this.chkGhiNho.Name = "chkGhiNho";
-            this.chkGhiNho.Size = new System.Drawing.Size(138, 24);
+            this.chkGhiNho.Size = new System.Drawing.Size(118, 21);
             this.chkGhiNho.TabIndex = 7;
             this.chkGhiNho.Text = "Nhớ mật khẩu";
             this.chkGhiNho.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -194,7 +194,7 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.ClientSize = new System.Drawing.Size(764, 474);
