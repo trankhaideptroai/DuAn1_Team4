@@ -52,3 +52,12 @@ D:\DuAn1_Team4\DuAn1_Team4\DuAn1_Team4\DAL\obj\Debug\DAL.csproj.CoreCompileInput
 D:\DuAn1_Team4\DuAn1_Team4\DuAn1_Team4\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\DuAn1_Team4\DuAn1_Team4\DuAn1_Team4\DAL\obj\Debug\DAL.dll
 D:\DuAn1_Team4\DuAn1_Team4\DuAn1_Team4\DAL\obj\Debug\DAL.pdb
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\bin\Debug\DAL.dll
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\bin\Debug\DAL.pdb
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\bin\Debug\DTO.dll
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\bin\Debug\DTO.pdb
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\obj\Debug\DAL.dll
+C:\Users\Tuan\source\repos\DuAn1_Team4\DAL\obj\Debug\DAL.pdb

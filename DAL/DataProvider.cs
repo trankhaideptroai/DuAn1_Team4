@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BUS
 {
-    internal class DataProvider
+    public class DataProvider
     {
         public static string connectionstr = @"Data Source=DESKTOP-4EF68B5\TUAN;Initial Catalog=database_duan1;Integrated Security=True";
         public DataTable ExcuteQuery(string querry)

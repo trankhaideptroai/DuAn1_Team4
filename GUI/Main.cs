@@ -12,6 +12,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Web.UI.Design.WebControls;
+using BUS;
+
 
 namespace GUI
 {
@@ -43,10 +46,8 @@ namespace GUI
         private void LoadfromThongKe()
         {
             // Chuỗi kết nối tới cơ sở dữ liệu
-            string connectionString = @"server=DESKTOP-8GQF8UM; database=sssj999; integrated security=true";
-
             // Tạo kết nối
-            using (SqlConnection conn = new SqlConnection(connectionString))
+            using (SqlConnection conn = DataProvider.connect())
             {
                 try
                 {
