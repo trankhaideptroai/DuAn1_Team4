@@ -21,6 +21,23 @@ namespace GUI
             txt_taikhoan.Text = Properties.Settings.Default.Username;
             txt_matkhau.Text = Properties.Settings.Default.Password;
             txt_matkhau.UseSystemPasswordChar = true;
+            LoadRememberedLogin();
+        }
+        private void LoadRememberedLogin()
+        {
+            // Kiểm tra xem có lưu trữ thông tin đăng nhập hay không
+            if (Properties.Settings.Default.RememberMe)
+            {
+                txt_taikhoan.Text = Properties.Settings.Default.Username;
+                txt_matkhau.Text = Properties.Settings.Default.Password;
+                chkGhiNho.Checked = true;
+            }
+            else
+            {
+                txt_taikhoan.Text = string.Empty;
+                txt_matkhau.Text = string.Empty;
+                chkGhiNho.Checked = false;
+            }
         }
         BUS_NhanVien bUSNhanVien = new BUS_NhanVien();
         private void guna2Button1_Click(object sender, EventArgs e)
