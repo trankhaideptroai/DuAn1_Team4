@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace GUI.Nhập_kho
 {
-    public partial class List : DevExpress.XtraEditors.XtraForm
+    public partial class LoadList : DevExpress.XtraEditors.XtraForm
     {
         #region source
 
         NhapKho_BUS sp3 = new NhapKho_BUS();
-        public List()
+        public LoadList()
         {
             InitializeComponent();
         }

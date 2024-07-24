@@ -133,7 +133,7 @@ namespace GUI.Nhập_kho
 
         private void xemDanhSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            List l = new List();
+            LoadList l = new LoadList();
             l.Show();
             this.Hide();
         }

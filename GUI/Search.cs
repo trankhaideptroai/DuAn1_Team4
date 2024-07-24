@@ -109,7 +109,7 @@ namespace GUI.Nhập_kho
 
         private void tìmKiếmToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            List list = new List();
+            LoadList list = new LoadList();
             list.Show();
             this.Hide();
         }

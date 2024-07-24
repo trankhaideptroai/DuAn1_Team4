@@ -30,17 +30,6 @@
         {
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnXuatPDF = new System.Windows.Forms.Button();
-            this.dtgvThongKe = new System.Windows.Forms.DataGridView();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.btn_add = new System.Windows.Forms.Button();
             this.guna2ImageCheckBox12 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox11 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox10 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
@@ -53,6 +42,22 @@
             this.guna2ImageCheckBox3 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox2 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnXuatPDF = new System.Windows.Forms.Button();
+            this.dtgvThongKe = new System.Windows.Forms.DataGridView();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.btn_add = new System.Windows.Forms.Button();
+            this.btn_M = new System.Windows.Forms.Button();
+            this.btn_ds = new System.Windows.Forms.Button();
+            this.btn_f = new System.Windows.Forms.Button();
+            this.btn_upd = new System.Windows.Forms.Button();
+            this.btn_del = new System.Windows.Forms.Button();
             this.tabPage7.SuspendLayout();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvThongKe)).BeginInit();
@@ -63,9 +68,9 @@
             // tabPage8
             // 
             this.tabPage8.Location = new System.Drawing.Point(184, 4);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage8.Size = new System.Drawing.Size(1753, 874);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Thoát";
@@ -87,167 +92,13 @@
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox2);
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox1);
             this.tabPage7.Location = new System.Drawing.Point(184, 4);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage7.Size = new System.Drawing.Size(1753, 874);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Bàn ăn";
             this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(184, 4);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage5.Size = new System.Drawing.Size(1753, 874);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Nhân viên";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.button1);
-            this.tabPage4.Controls.Add(this.btnXuatPDF);
-            this.tabPage4.Controls.Add(this.dtgvThongKe);
-            this.tabPage4.Location = new System.Drawing.Point(184, 4);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage4.Size = new System.Drawing.Size(1753, 874);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Thống kê";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(895, 16);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnXuatPDF
-            // 
-            this.btnXuatPDF.BackColor = System.Drawing.Color.Blue;
-            this.btnXuatPDF.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnXuatPDF.Location = new System.Drawing.Point(833, 390);
-            this.btnXuatPDF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnXuatPDF.Name = "btnXuatPDF";
-            this.btnXuatPDF.Size = new System.Drawing.Size(132, 46);
-            this.btnXuatPDF.TabIndex = 1;
-            this.btnXuatPDF.Text = "Xuất PDF";
-            this.btnXuatPDF.UseVisualStyleBackColor = false;
-            this.btnXuatPDF.Click += new System.EventHandler(this.btnXuatPDF_Click);
-            // 
-            // dtgvThongKe
-            // 
-            this.dtgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvThongKe.Location = new System.Drawing.Point(70, 66);
-            this.dtgvThongKe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dtgvThongKe.Name = "dtgvThongKe";
-            this.dtgvThongKe.RowHeadersWidth = 62;
-            this.dtgvThongKe.RowTemplate.Height = 28;
-            this.dtgvThongKe.Size = new System.Drawing.Size(916, 287);
-            this.dtgvThongKe.TabIndex = 0;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(184, 4);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage3.Size = new System.Drawing.Size(1753, 874);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Hoá đơn";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(184, 4);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Size = new System.Drawing.Size(1753, 874);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Thực đơn";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(184, 4);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1753, 874);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Trang chủ";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tab_control
-            // 
-            this.tab_control.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.tab_control.Controls.Add(this.tabPage1);
-            this.tab_control.Controls.Add(this.tabPage2);
-            this.tab_control.Controls.Add(this.tabPage3);
-            this.tab_control.Controls.Add(this.tabPage4);
-            this.tab_control.Controls.Add(this.tabPage5);
-            this.tab_control.Controls.Add(this.tabPage7);
-            this.tab_control.Controls.Add(this.tabPage6);
-            this.tab_control.Controls.Add(this.tabPage8);
-            this.tab_control.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.tab_control.ItemSize = new System.Drawing.Size(180, 70);
-            this.tab_control.Location = new System.Drawing.Point(3, 2);
-            this.tab_control.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tab_control.Name = "tab_control";
-            this.tab_control.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tab_control.SelectedIndex = 0;
-            this.tab_control.Size = new System.Drawing.Size(1941, 882);
-            this.tab_control.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.tab_control.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.tab_control.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tab_control.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
-            this.tab_control.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.tab_control.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.tab_control.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.tab_control.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tab_control.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.tab_control.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.tab_control.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.tab_control.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
-            this.tab_control.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.tab_control.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
-            this.tab_control.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.tab_control.TabButtonSize = new System.Drawing.Size(180, 70);
-            this.tab_control.TabIndex = 0;
-            this.tab_control.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.tab_control.Click += new System.EventHandler(this.guna2ImageButton1_Click);
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Controls.Add(this.btn_add);
-            this.tabPage6.Location = new System.Drawing.Point(184, 4);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage6.Size = new System.Drawing.Size(1753, 874);
-            this.tabPage6.TabIndex = 8;
-            this.tabPage6.Text = "Nhập kho";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // btn_add
-            // 
-            this.btn_add.Location = new System.Drawing.Point(372, 177);
-            this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(150, 69);
-            this.btn_add.TabIndex = 0;
-            this.btn_add.Text = "Thêm";
-            this.btn_add.UseVisualStyleBackColor = true;
-            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // guna2ImageCheckBox12
             // 
@@ -441,6 +292,227 @@
             this.guna2ImageCheckBox1.Size = new System.Drawing.Size(222, 187);
             this.guna2ImageCheckBox1.TabIndex = 26;
             // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(184, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage5.Size = new System.Drawing.Size(1753, 874);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Nhân viên";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.button1);
+            this.tabPage4.Controls.Add(this.btnXuatPDF);
+            this.tabPage4.Controls.Add(this.dtgvThongKe);
+            this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage4.Size = new System.Drawing.Size(1753, 874);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Thống kê";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(895, 16);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 35);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnXuatPDF
+            // 
+            this.btnXuatPDF.BackColor = System.Drawing.Color.Blue;
+            this.btnXuatPDF.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnXuatPDF.Location = new System.Drawing.Point(833, 390);
+            this.btnXuatPDF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXuatPDF.Name = "btnXuatPDF";
+            this.btnXuatPDF.Size = new System.Drawing.Size(132, 46);
+            this.btnXuatPDF.TabIndex = 1;
+            this.btnXuatPDF.Text = "Xuất PDF";
+            this.btnXuatPDF.UseVisualStyleBackColor = false;
+            this.btnXuatPDF.Click += new System.EventHandler(this.btnXuatPDF_Click);
+            // 
+            // dtgvThongKe
+            // 
+            this.dtgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvThongKe.Location = new System.Drawing.Point(70, 66);
+            this.dtgvThongKe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtgvThongKe.Name = "dtgvThongKe";
+            this.dtgvThongKe.RowHeadersWidth = 62;
+            this.dtgvThongKe.RowTemplate.Height = 28;
+            this.dtgvThongKe.Size = new System.Drawing.Size(916, 287);
+            this.dtgvThongKe.TabIndex = 0;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage3.Size = new System.Drawing.Size(1753, 874);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Hoá đơn";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Size = new System.Drawing.Size(1753, 874);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Thực đơn";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(184, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Size = new System.Drawing.Size(1753, 874);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Trang chủ";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tab_control
+            // 
+            this.tab_control.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.tab_control.Controls.Add(this.tabPage1);
+            this.tab_control.Controls.Add(this.tabPage2);
+            this.tab_control.Controls.Add(this.tabPage3);
+            this.tab_control.Controls.Add(this.tabPage4);
+            this.tab_control.Controls.Add(this.tabPage5);
+            this.tab_control.Controls.Add(this.tabPage7);
+            this.tab_control.Controls.Add(this.tabPage6);
+            this.tab_control.Controls.Add(this.tabPage8);
+            this.tab_control.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.tab_control.ItemSize = new System.Drawing.Size(180, 70);
+            this.tab_control.Location = new System.Drawing.Point(3, 2);
+            this.tab_control.Margin = new System.Windows.Forms.Padding(4);
+            this.tab_control.Name = "tab_control";
+            this.tab_control.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.tab_control.SelectedIndex = 0;
+            this.tab_control.Size = new System.Drawing.Size(1941, 882);
+            this.tab_control.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.tab_control.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.tab_control.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tab_control.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
+            this.tab_control.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.tab_control.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.tab_control.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.tab_control.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tab_control.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
+            this.tab_control.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.tab_control.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.tab_control.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
+            this.tab_control.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.tab_control.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
+            this.tab_control.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
+            this.tab_control.TabButtonSize = new System.Drawing.Size(180, 70);
+            this.tab_control.TabIndex = 0;
+            this.tab_control.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.tab_control.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.btn_del);
+            this.tabPage6.Controls.Add(this.btn_upd);
+            this.tabPage6.Controls.Add(this.btn_f);
+            this.tabPage6.Controls.Add(this.btn_ds);
+            this.tabPage6.Controls.Add(this.btn_M);
+            this.tabPage6.Controls.Add(this.btn_add);
+            this.tabPage6.Location = new System.Drawing.Point(184, 4);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage6.Size = new System.Drawing.Size(1753, 874);
+            this.tabPage6.TabIndex = 8;
+            this.tabPage6.Text = "Nhập kho";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // btn_add
+            // 
+            this.btn_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_add.Location = new System.Drawing.Point(237, 96);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(243, 69);
+            this.btn_add.TabIndex = 0;
+            this.btn_add.Text = "Thêm";
+            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
+            // 
+            // btn_M
+            // 
+            this.btn_M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_M.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_M.Location = new System.Drawing.Point(720, 473);
+            this.btn_M.Name = "btn_M";
+            this.btn_M.Size = new System.Drawing.Size(243, 69);
+            this.btn_M.TabIndex = 2;
+            this.btn_M.Text = "Trang chủ";
+            this.btn_M.UseVisualStyleBackColor = true;
+            this.btn_M.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btn_ds
+            // 
+            this.btn_ds.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ds.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ds.Location = new System.Drawing.Point(237, 473);
+            this.btn_ds.Name = "btn_ds";
+            this.btn_ds.Size = new System.Drawing.Size(243, 69);
+            this.btn_ds.TabIndex = 3;
+            this.btn_ds.Text = "Xem danh sách";
+            this.btn_ds.UseVisualStyleBackColor = true;
+            this.btn_ds.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btn_f
+            // 
+            this.btn_f.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_f.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_f.Location = new System.Drawing.Point(720, 291);
+            this.btn_f.Name = "btn_f";
+            this.btn_f.Size = new System.Drawing.Size(243, 69);
+            this.btn_f.TabIndex = 4;
+            this.btn_f.Text = "Tìm kiếm";
+            this.btn_f.UseVisualStyleBackColor = true;
+            this.btn_f.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // btn_upd
+            // 
+            this.btn_upd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_upd.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_upd.Location = new System.Drawing.Point(237, 291);
+            this.btn_upd.Name = "btn_upd";
+            this.btn_upd.Size = new System.Drawing.Size(243, 69);
+            this.btn_upd.TabIndex = 5;
+            this.btn_upd.Text = "Sửa";
+            this.btn_upd.UseVisualStyleBackColor = true;
+            this.btn_upd.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // btn_del
+            // 
+            this.btn_del.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_del.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_del.Location = new System.Drawing.Point(720, 96);
+            this.btn_del.Name = "btn_del";
+            this.btn_del.Size = new System.Drawing.Size(243, 69);
+            this.btn_del.TabIndex = 6;
+            this.btn_del.Text = "Xóa";
+            this.btn_del.UseVisualStyleBackColor = true;
+            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -448,7 +520,7 @@
             this.ClientSize = new System.Drawing.Size(1726, 759);
             this.Controls.Add(this.tab_control);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
@@ -488,5 +560,10 @@
         private System.Windows.Forms.DataGridView dtgvThongKe;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn_add;
+        private System.Windows.Forms.Button btn_del;
+        private System.Windows.Forms.Button btn_upd;
+        private System.Windows.Forms.Button btn_f;
+        private System.Windows.Forms.Button btn_ds;
+        private System.Windows.Forms.Button btn_M;
     }
 }

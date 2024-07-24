@@ -136,7 +136,6 @@ C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\bin\Debug\DAL.dll
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\bin\Debug\DAL.pdb
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\obj\Debug\GUI.Insert.resources
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\obj\Debug\GUI.Delete.resources
-C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\obj\Debug\GUI.List.resources
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\obj\Debug\GUI.Search.resources
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\obj\Debug\GUI.Update.resources
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\bin\Debug\Lưu.jpg
@@ -159,3 +158,4 @@ C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\bin\Debug\DevExpress.Printing.v22.2.C
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
 C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\Tuan\source\repos\DuAn1_Team4\GUI\obj\Debug\GUI.LoadList.resources

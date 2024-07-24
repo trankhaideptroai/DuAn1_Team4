@@ -77,10 +77,10 @@
     <Compile Include="ISearch.cs" />
     <Compile Include="IUpdate.cs" />
     <Compile Include="IViewList.cs" />
-    <Compile Include="List.cs">
+    <Compile Include="LoadList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="List.Designer.cs" />
+    <Compile Include="LoadList.Designer.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,7 +111,7 @@
     <Compile Include="Update.Designer.cs" />
     <EmbeddedResource Include="Delete.resx" />
     <EmbeddedResource Include="Insert.resx" />
-    <EmbeddedResource Include="List.resx" />
+    <EmbeddedResource Include="LoadList.resx" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,11 +177,12 @@
     <None Include="Resources\ban_checked.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Lưu.jpg">
+    <None Include="Lưu.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    </None>
     <Content Include="Menu.png" />
     <Content Include="Reload.jpg" />
+    <None Include="Resources\Thêm.bmp" />
     <Content Include="Sửa.jpg" />
     <Content Include="Thêm.jpg" />
     <Content Include="Tìm.jpg" />

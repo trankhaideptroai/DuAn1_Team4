@@ -169,5 +169,34 @@ namespace GUI
             Insert ins = new Insert();
             ins.Show();
         }
+
+        private void btn_del_Click(object sender, EventArgs e)
+        {
+            Delete del = new Delete();
+            del.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Update upd = new Update();
+            upd.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Search sea = new Search();
+            sea.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            LoadList l = new LoadList();
+            l.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            tab_control.SelectTab(tabPage1);
+        }
     }
 }

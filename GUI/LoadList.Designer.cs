@@ -1,6 +1,6 @@
 ﻿namespace GUI.Nhập_kho
 {
-    partial class List
+    partial class LoadList
     {
         /// <summary>
         /// Required designer variable.
