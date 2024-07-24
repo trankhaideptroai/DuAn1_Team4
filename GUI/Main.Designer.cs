@@ -49,16 +49,22 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tab_control = new Guna.UI2.WinForms.Guna2TabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.dtgvThongKe = new System.Windows.Forms.DataGridView();
+            this.btnXuatPDF = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabPage7.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.tab_control.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvThongKe)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPage8
             // 
             this.tabPage8.Location = new System.Drawing.Point(184, 4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage8.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage8.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Thoát";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -79,9 +85,10 @@
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox2);
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox1);
             this.tabPage7.Location = new System.Drawing.Point(184, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage7.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage7.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Bàn ăn";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -96,9 +103,10 @@
             this.guna2ImageCheckBox12.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox12.ImageRotate = 0F;
             this.guna2ImageCheckBox12.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox12.Location = new System.Drawing.Point(71, 414);
+            this.guna2ImageCheckBox12.Location = new System.Drawing.Point(106, 637);
+            this.guna2ImageCheckBox12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox12.Name = "guna2ImageCheckBox12";
-            this.guna2ImageCheckBox12.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox12.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox12.TabIndex = 37;
             // 
             // guna2ImageCheckBox11
@@ -111,9 +119,10 @@
             this.guna2ImageCheckBox11.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox11.ImageRotate = 0F;
             this.guna2ImageCheckBox11.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox11.Location = new System.Drawing.Point(276, 414);
+            this.guna2ImageCheckBox11.Location = new System.Drawing.Point(414, 637);
+            this.guna2ImageCheckBox11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox11.Name = "guna2ImageCheckBox11";
-            this.guna2ImageCheckBox11.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox11.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox11.TabIndex = 36;
             // 
             // guna2ImageCheckBox10
@@ -126,9 +135,10 @@
             this.guna2ImageCheckBox10.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox10.ImageRotate = 0F;
             this.guna2ImageCheckBox10.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox10.Location = new System.Drawing.Point(701, 414);
+            this.guna2ImageCheckBox10.Location = new System.Drawing.Point(1052, 637);
+            this.guna2ImageCheckBox10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox10.Name = "guna2ImageCheckBox10";
-            this.guna2ImageCheckBox10.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox10.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox10.TabIndex = 34;
             // 
             // guna2ImageCheckBox9
@@ -141,9 +151,10 @@
             this.guna2ImageCheckBox9.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox9.ImageRotate = 0F;
             this.guna2ImageCheckBox9.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox9.Location = new System.Drawing.Point(483, 414);
+            this.guna2ImageCheckBox9.Location = new System.Drawing.Point(724, 637);
+            this.guna2ImageCheckBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox9.Name = "guna2ImageCheckBox9";
-            this.guna2ImageCheckBox9.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox9.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox9.TabIndex = 35;
             // 
             // guna2ImageCheckBox8
@@ -156,9 +167,10 @@
             this.guna2ImageCheckBox8.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox8.ImageRotate = 0F;
             this.guna2ImageCheckBox8.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox8.Location = new System.Drawing.Point(276, 230);
+            this.guna2ImageCheckBox8.Location = new System.Drawing.Point(414, 354);
+            this.guna2ImageCheckBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox8.Name = "guna2ImageCheckBox8";
-            this.guna2ImageCheckBox8.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox8.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox8.TabIndex = 33;
             // 
             // guna2ImageCheckBox7
@@ -171,9 +183,10 @@
             this.guna2ImageCheckBox7.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox7.ImageRotate = 0F;
             this.guna2ImageCheckBox7.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox7.Location = new System.Drawing.Point(71, 230);
+            this.guna2ImageCheckBox7.Location = new System.Drawing.Point(106, 354);
+            this.guna2ImageCheckBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox7.Name = "guna2ImageCheckBox7";
-            this.guna2ImageCheckBox7.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox7.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox7.TabIndex = 32;
             // 
             // guna2ImageCheckBox6
@@ -186,9 +199,10 @@
             this.guna2ImageCheckBox6.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox6.ImageRotate = 0F;
             this.guna2ImageCheckBox6.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox6.Location = new System.Drawing.Point(276, 34);
+            this.guna2ImageCheckBox6.Location = new System.Drawing.Point(414, 52);
+            this.guna2ImageCheckBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox6.Name = "guna2ImageCheckBox6";
-            this.guna2ImageCheckBox6.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox6.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox6.TabIndex = 31;
             // 
             // guna2ImageCheckBox5
@@ -201,9 +215,10 @@
             this.guna2ImageCheckBox5.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox5.ImageRotate = 0F;
             this.guna2ImageCheckBox5.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox5.Location = new System.Drawing.Point(701, 34);
+            this.guna2ImageCheckBox5.Location = new System.Drawing.Point(1052, 52);
+            this.guna2ImageCheckBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox5.Name = "guna2ImageCheckBox5";
-            this.guna2ImageCheckBox5.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox5.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox5.TabIndex = 30;
             // 
             // guna2ImageCheckBox4
@@ -216,9 +231,10 @@
             this.guna2ImageCheckBox4.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox4.ImageRotate = 0F;
             this.guna2ImageCheckBox4.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox4.Location = new System.Drawing.Point(483, 34);
+            this.guna2ImageCheckBox4.Location = new System.Drawing.Point(724, 52);
+            this.guna2ImageCheckBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox4.Name = "guna2ImageCheckBox4";
-            this.guna2ImageCheckBox4.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox4.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox4.TabIndex = 29;
             // 
             // guna2ImageCheckBox3
@@ -231,9 +247,10 @@
             this.guna2ImageCheckBox3.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox3.ImageRotate = 0F;
             this.guna2ImageCheckBox3.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox3.Location = new System.Drawing.Point(701, 230);
+            this.guna2ImageCheckBox3.Location = new System.Drawing.Point(1052, 354);
+            this.guna2ImageCheckBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox3.Name = "guna2ImageCheckBox3";
-            this.guna2ImageCheckBox3.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox3.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox3.TabIndex = 28;
             // 
             // guna2ImageCheckBox2
@@ -246,9 +263,10 @@
             this.guna2ImageCheckBox2.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox2.ImageRotate = 0F;
             this.guna2ImageCheckBox2.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox2.Location = new System.Drawing.Point(483, 230);
+            this.guna2ImageCheckBox2.Location = new System.Drawing.Point(724, 354);
+            this.guna2ImageCheckBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox2.Name = "guna2ImageCheckBox2";
-            this.guna2ImageCheckBox2.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox2.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox2.TabIndex = 27;
             // 
             // guna2ImageCheckBox1
@@ -261,27 +279,33 @@
             this.guna2ImageCheckBox1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageCheckBox1.ImageRotate = 0F;
             this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(200, 150);
-            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(71, 34);
+            this.guna2ImageCheckBox1.Location = new System.Drawing.Point(106, 52);
+            this.guna2ImageCheckBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
-            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(167, 152);
+            this.guna2ImageCheckBox1.Size = new System.Drawing.Size(250, 234);
             this.guna2ImageCheckBox1.TabIndex = 26;
             // 
             // tabPage5
             // 
             this.tabPage5.Location = new System.Drawing.Point(184, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage5.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage5.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Nhân viên";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button1);
+            this.tabPage4.Controls.Add(this.btnXuatPDF);
+            this.tabPage4.Controls.Add(this.dtgvThongKe);
             this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage4.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage4.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thống kê";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -289,9 +313,10 @@
             // tabPage3
             // 
             this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage3.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage3.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Hoá đơn";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -299,9 +324,10 @@
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage2.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Thực đơn";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -309,9 +335,10 @@
             // tabPage1
             // 
             this.tabPage1.Location = new System.Drawing.Point(184, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage1.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage1.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Trang chủ";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -329,11 +356,12 @@
             this.tab_control.Controls.Add(this.tabPage8);
             this.tab_control.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.tab_control.ItemSize = new System.Drawing.Size(180, 70);
-            this.tab_control.Location = new System.Drawing.Point(0, 0);
+            this.tab_control.Location = new System.Drawing.Point(3, 2);
+            this.tab_control.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tab_control.Name = "tab_control";
             this.tab_control.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tab_control.SelectedIndex = 0;
-            this.tab_control.Size = new System.Drawing.Size(1456, 716);
+            this.tab_control.Size = new System.Drawing.Size(2184, 1102);
             this.tab_control.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.tab_control.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.tab_control.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -357,25 +385,60 @@
             // tabPage6
             // 
             this.tabPage6.Location = new System.Drawing.Point(184, 4);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage6.Size = new System.Drawing.Size(1268, 708);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Size = new System.Drawing.Size(1996, 1094);
             this.tabPage6.TabIndex = 8;
             this.tabPage6.Text = "Nhập kho";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // dtgvThongKe
+            // 
+            this.dtgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvThongKe.Location = new System.Drawing.Point(79, 83);
+            this.dtgvThongKe.Name = "dtgvThongKe";
+            this.dtgvThongKe.RowHeadersWidth = 62;
+            this.dtgvThongKe.RowTemplate.Height = 28;
+            this.dtgvThongKe.Size = new System.Drawing.Size(1031, 359);
+            this.dtgvThongKe.TabIndex = 0;
+            // 
+            // btnXuatPDF
+            // 
+            this.btnXuatPDF.BackColor = System.Drawing.Color.Blue;
+            this.btnXuatPDF.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnXuatPDF.Location = new System.Drawing.Point(937, 488);
+            this.btnXuatPDF.Name = "btnXuatPDF";
+            this.btnXuatPDF.Size = new System.Drawing.Size(149, 57);
+            this.btnXuatPDF.TabIndex = 1;
+            this.btnXuatPDF.Text = "Xuất PDF";
+            this.btnXuatPDF.UseVisualStyleBackColor = false;
+            this.btnXuatPDF.Click += new System.EventHandler(this.btnXuatPDF_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1007, 20);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(103, 44);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1455, 617);
+            this.ClientSize = new System.Drawing.Size(1946, 949);
             this.Controls.Add(this.tab_control);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Main";
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.tabPage7.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
             this.tab_control.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvThongKe)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -403,5 +466,8 @@
         private System.Windows.Forms.TabPage tabPage1;
         private Guna.UI2.WinForms.Guna2TabControl tab_control;
         private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.Button btnXuatPDF;
+        private System.Windows.Forms.DataGridView dtgvThongKe;
+        private System.Windows.Forms.Button button1;
     }
 }

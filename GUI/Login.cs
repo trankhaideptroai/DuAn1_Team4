@@ -110,6 +110,11 @@ namespace GUI
         {
 
         }
-        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Main m = new Main();
+            m.Show();
+        }
     }
 }    

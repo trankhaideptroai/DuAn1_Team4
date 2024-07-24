@@ -37,6 +37,7 @@
             this.btn_quenmk = new Guna.UI2.WinForms.Guna2Button();
             this.chkGhiNho = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,6 +68,7 @@
             this.txt_matkhau.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_matkhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_matkhau.Location = new System.Drawing.Point(253, 282);
+            this.txt_matkhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_matkhau.Name = "txt_matkhau";
             this.txt_matkhau.PasswordChar = '\0';
             this.txt_matkhau.PlaceholderText = "";
@@ -87,6 +89,7 @@
             this.txt_taikhoan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_taikhoan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_taikhoan.Location = new System.Drawing.Point(253, 222);
+            this.txt_taikhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_taikhoan.Name = "txt_taikhoan";
             this.txt_taikhoan.PasswordChar = '\0';
             this.txt_taikhoan.PlaceholderText = "";
@@ -102,7 +105,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(155, 231);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 18);
+            this.label1.Size = new System.Drawing.Size(142, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tài khoản :";
             // 
@@ -113,7 +116,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(154, 298);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.Size = new System.Drawing.Size(131, 29);
             this.label2.TabIndex = 5;
             this.label2.Text = "Mật khẩu :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -156,7 +159,7 @@
             this.chkGhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.chkGhiNho.Location = new System.Drawing.Point(253, 329);
             this.chkGhiNho.Name = "chkGhiNho";
-            this.chkGhiNho.Size = new System.Drawing.Size(93, 17);
+            this.chkGhiNho.Size = new System.Drawing.Size(138, 24);
             this.chkGhiNho.TabIndex = 7;
             this.chkGhiNho.Text = "Nhớ mật khẩu";
             this.chkGhiNho.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -179,12 +182,23 @@
             this.guna2TileButton1.TabIndex = 8;
             this.guna2TileButton1.Text = "Góp ý";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(677, 22);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 51);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.ClientSize = new System.Drawing.Size(764, 474);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.guna2TileButton1);
             this.Controls.Add(this.chkGhiNho);
             this.Controls.Add(this.btn_quenmk);
@@ -216,6 +230,7 @@
         private Guna.UI2.WinForms.Guna2Button btn_quenmk;
         private Guna.UI2.WinForms.Guna2CheckBox chkGhiNho;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
