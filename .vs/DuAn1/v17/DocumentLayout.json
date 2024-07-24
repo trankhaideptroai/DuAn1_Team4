@@ -1,89 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\",
+  "WorkspaceRootPath": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\gui\\insert.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\insert.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BC6E6D9-15F8-4730-BCC7-B2F3A8999F2D}|BUS\\BUS.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\bus\\nhapkho_bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BC6E6D9-15F8-4730-BCC7-B2F3A8999F2D}|BUS\\BUS.csproj|solutionrelative:bus\\nhapkho_bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\dto\\nhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|solutionrelative:dto\\nhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\gui\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\gui\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\delete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\delete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\gui\\l\u01B0u.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\l\u01B0u.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\gui\\loadlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\loadlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|c:\\users\\tuan\\source\\repos\\duan1_team4\\gui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\insert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\insert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\dal\\nhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\nhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC6E6D9-15F8-4730-BCC7-B2F3A8999F2D}|BUS\\BUS.csproj|c:\\users\\trantankhai\\downloads\\new\\duan1_team4\\bus\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC6E6D9-15F8-4730-BCC7-B2F3A8999F2D}|BUS\\BUS.csproj|solutionrelative:bus\\bus_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|c:\\users\\trantankhai\\downloads\\new\\duan1_team4\\dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|c:\\users\\trantankhai\\downloads\\new\\duan1_team4\\gui\\insert.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\insert.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|c:\\users\\trantankhai\\downloads\\new\\duan1_team4\\dto\\absnhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|solutionrelative:dto\\absnhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\dto\\nhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|solutionrelative:dto\\nhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC6E6D9-15F8-4730-BCC7-B2F3A8999F2D}|BUS\\BUS.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\bus\\nhapkho_bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC6E6D9-15F8-4730-BCC7-B2F3A8999F2D}|BUS\\BUS.csproj|solutionrelative:bus\\nhapkho_bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\delete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\delete.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\l\u01B0u.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\l\u01B0u.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\loadlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\loadlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\insert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\insert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\dal\\nhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\nhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -94,17 +106,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Main.cs",
               "RelativeDocumentMoniker": "GUI\\Main.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Main.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Main.cs",
               "RelativeToolTip": "GUI\\Main.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAhwMYAAAAsAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAEwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T12:48:14.168Z",
               "IsPinned": true,
@@ -112,11 +124,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "QuenMK.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\QuenMK.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\QuenMK.cs",
               "RelativeDocumentMoniker": "GUI\\QuenMK.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\QuenMK.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\QuenMK.cs",
               "RelativeToolTip": "GUI\\QuenMK.cs",
               "ViewState": "AQIAAGQAAAAAAAAAAAAawH0AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,13 +137,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "BUS_NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\BUS\\BUS_NhanVien.cs",
+              "RelativeDocumentMoniker": "BUS\\BUS_NhanVien.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\BUS\\BUS_NhanVien.cs",
+              "RelativeToolTip": "BUS\\BUS_NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:12:20.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL_NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DAL\\DAL_NhanVien.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_NhanVien.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DAL\\DAL_NhanVien.cs",
+              "RelativeToolTip": "DAL\\DAL_NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:08:35.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Insert.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Insert.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Insert.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Insert.Designer.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Insert.Designer.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Insert.Designer.cs",
               "RelativeToolTip": "GUI\\Insert.Designer.cs",
-              "ViewState": "AQIAAMIAAAAAAAAAAIAwwNAAAABMAAAA",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAuwNQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T11:45:09.575Z",
               "EditorCaption": ""
@@ -139,23 +177,61 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NhapKho_BUS.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\BUS\\NhapKho_BUS.cs",
-              "RelativeDocumentMoniker": "BUS\\NhapKho_BUS.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\BUS\\NhapKho_BUS.cs",
-              "RelativeToolTip": "BUS\\NhapKho_BUS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Login.cs",
+              "RelativeDocumentMoniker": "GUI\\Login.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Login.cs",
+              "RelativeToolTip": "GUI\\Login.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAswB0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T11:41:28.608Z",
+              "WhenOpened": "2024-07-19T11:51:59.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Login.cs",
+              "RelativeDocumentMoniker": "GUI\\Login.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Login.cs [Design]",
+              "RelativeToolTip": "GUI\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T12:28:05.674Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DAL\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DAL\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DAL\\DataProvider.cs",
+              "RelativeToolTip": "DAL\\DataProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:49:59.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AbsNhapKho_DTO.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DTO\\AbsNhapKho_DTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AbsNhapKho_DTO.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DTO\\AbsNhapKho_DTO.cs",
+              "RelativeToolTip": "DTO\\AbsNhapKho_DTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:07:03.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "NhapKho_DTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\DTO\\NhapKho_DTO.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DTO\\NhapKho_DTO.cs",
               "RelativeDocumentMoniker": "DTO\\NhapKho_DTO.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\DTO\\NhapKho_DTO.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DTO\\NhapKho_DTO.cs",
               "RelativeToolTip": "DTO\\NhapKho_DTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -164,64 +240,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "GUI\\Properties\\Resources.Designer.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAswEUAAAANAAAA",
+              "DocumentIndex": 6,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Main.cs",
+              "RelativeDocumentMoniker": "GUI\\Main.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Main.cs [Design]",
+              "RelativeToolTip": "GUI\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T11:40:29.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T12:21:33.788Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "GUI\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswEUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T11:40:29.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NhapKho_BUS.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\BUS\\NhapKho_BUS.cs",
+              "RelativeDocumentMoniker": "BUS\\NhapKho_BUS.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\BUS\\NhapKho_BUS.cs",
+              "RelativeToolTip": "BUS\\NhapKho_BUS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T11:41:28.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Properties\\Resources.resx",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "GUI\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Properties\\Resources.resx",
               "RelativeToolTip": "GUI\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-07-24T11:32:31.17Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "L\u01B0u.jpg",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\L\u01B0u.jpg",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\L\u01B0u.jpg",
               "RelativeDocumentMoniker": "GUI\\L\u01B0u.jpg",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\L\u01B0u.jpg",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\L\u01B0u.jpg",
               "RelativeToolTip": "GUI\\L\u01B0u.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-07-24T11:28:14.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T11:28:14.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "LoadList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\LoadList.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\LoadList.cs",
               "RelativeDocumentMoniker": "GUI\\LoadList.cs",
               "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\LoadList.cs [Design]",
-              "RelativeToolTip": "GUI\\LoadList.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\LoadList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T11:23:53.865Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-24T11:23:53.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Main.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Main.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Main.Designer.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Main.Designer.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Main.Designer.cs",
               "RelativeToolTip": "GUI\\Main.Designer.cs",
               "ViewState": "AQIAAO0BAAAAAAAAAAAWwAECAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,49 +323,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Delete.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Delete.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Delete.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Delete.Designer.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Delete.Designer.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Delete.Designer.cs",
               "RelativeToolTip": "GUI\\Delete.Designer.cs",
               "ViewState": "AQIAADoAAAAAAAAAAIAwwE4AAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T10:36:26.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T10:36:26.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Delete.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Delete.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Delete.cs",
               "RelativeDocumentMoniker": "GUI\\Delete.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Delete.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Delete.cs",
               "RelativeToolTip": "GUI\\Delete.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAD4v48AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T10:29:46.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T10:29:46.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Delete.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Delete.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Delete.cs",
               "RelativeDocumentMoniker": "GUI\\Delete.cs",
               "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Delete.cs [Design]",
-              "RelativeToolTip": "GUI\\Delete.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Delete.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T10:29:39.753Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-24T10:29:39.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "NhapKho_DAL.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\DAL\\NhapKho_DAL.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DAL\\NhapKho_DAL.cs",
               "RelativeDocumentMoniker": "DAL\\NhapKho_DAL.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\DAL\\NhapKho_DAL.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\DAL\\NhapKho_DAL.cs",
               "RelativeToolTip": "DAL\\NhapKho_DAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -280,36 +370,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Insert.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Insert.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Insert.cs",
               "RelativeDocumentMoniker": "GUI\\Insert.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Insert.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Insert.cs",
               "RelativeToolTip": "GUI\\Insert.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAAHAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T10:19:29.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T10:19:29.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DataProvider.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\DAL\\DataProvider.cs",
-              "RelativeDocumentMoniker": "DAL\\DataProvider.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\DAL\\DataProvider.cs",
-              "RelativeToolTip": "DAL\\DataProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T09:49:59.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Program.cs",
+              "ToolTip": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\Program.cs",
               "RelativeToolTip": "GUI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -317,48 +394,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Login.cs",
-              "RelativeDocumentMoniker": "GUI\\Login.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Login.cs [Design]",
-              "RelativeToolTip": "GUI\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T12:28:05.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "QuenMK.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\QuenMK.cs",
+              "DocumentMoniker": "C:\\Users\\TranTanKhai\\Downloads\\New\\DuAn1_Team4\\GUI\\QuenMK.cs",
               "RelativeDocumentMoniker": "GUI\\QuenMK.cs",
               "ToolTip": "D:\\DuAn1_Team4\\DuAn1_Team4\\DuAn1_Team4\\GUI\\QuenMK.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T12:22:02.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Main.cs",
-              "RelativeDocumentMoniker": "GUI\\Main.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Main.cs [Design]",
-              "RelativeToolTip": "GUI\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T12:21:33.788Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Login.cs",
-              "RelativeDocumentMoniker": "GUI\\Login.cs",
-              "ToolTip": "C:\\Users\\Tuan\\source\\repos\\DuAn1_Team4\\GUI\\Login.cs",
-              "RelativeToolTip": "GUI\\Login.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAqwHQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T11:51:59.585Z"
             }
           ]
         }
