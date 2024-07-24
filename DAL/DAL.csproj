@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbsNhapKho_DAL.cs" />
     <Compile Include="DataProvider.cs" />
+    <Compile Include="INhapKho_DAL.cs" />
+    <Compile Include="NhapKho_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

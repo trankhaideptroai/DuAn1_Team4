@@ -14,6 +14,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Web.UI.Design.WebControls;
 using BUS;
+using GUI.Nhập_kho;
+using DAL;
 
 
 namespace GUI
@@ -43,6 +45,9 @@ namespace GUI
         {
             LoadfromThongKe();
         }
+
+        #region ThongKe
+
         private void LoadfromThongKe()
         {
             // Chuỗi kết nối tới cơ sở dữ liệu
@@ -149,9 +154,20 @@ namespace GUI
             }
         }
 
+        #endregion
+
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btn_add_Click(object sender, EventArgs e)
+        {
+            Insert ins = new Insert();
+            ins.Show();
         }
     }
 }
