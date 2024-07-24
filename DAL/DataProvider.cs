@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DataProvider
     {
-        public static string connectionstr = @"Data Source=DESKTOP-4EF68B5\TUAN;Initial Catalog=database_duan1;Integrated Security=True";
+        public static string connectionstr = "Data Source=DESKTOP-3OM6LVM;Initial Catalog=database_duan1;Integrated Security=True";
         public DataTable ExcuteQuery(string querry)
         {
             DataTable data = new DataTable();

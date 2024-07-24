@@ -40,3 +40,9 @@ C:\Users\Tuan\source\repos\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.AssemblyReferenc
 C:\Users\Tuan\source\repos\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\Tuan\source\repos\DuAn1_Team4\DTO\obj\Debug\DTO.dll
 C:\Users\Tuan\source\repos\DuAn1_Team4\DTO\obj\Debug\DTO.pdb
+C:\Users\TranTanKhai\Downloads\New\DuAn1_Team4\DTO\bin\Debug\DTO.dll
+C:\Users\TranTanKhai\Downloads\New\DuAn1_Team4\DTO\bin\Debug\DTO.pdb
+C:\Users\TranTanKhai\Downloads\New\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\TranTanKhai\Downloads\New\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\TranTanKhai\Downloads\New\DuAn1_Team4\DTO\obj\Debug\DTO.dll
+C:\Users\TranTanKhai\Downloads\New\DuAn1_Team4\DTO\obj\Debug\DTO.pdb
