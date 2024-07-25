@@ -1,4 +1,4 @@
-﻿namespace GUI
+﻿    namespace GUI
 {
     partial class Login
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.btn_login = new Guna.UI2.WinForms.Guna2Button();
             this.txt_matkhau = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_taikhoan = new Guna.UI2.WinForms.Guna2TextBox();
@@ -37,28 +38,24 @@
             this.btn_quenmk = new Guna.UI2.WinForms.Guna2Button();
             this.chkGhiNho = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_login
             // 
-            this.btn_login.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.btn_login, "btn_login");
             this.btn_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_login.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_login.ForeColor = System.Drawing.Color.White;
-            this.btn_login.Location = new System.Drawing.Point(311, 358);
             this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(136, 45);
-            this.btn_login.TabIndex = 0;
-            this.btn_login.Text = "Đăng nhập";
             this.btn_login.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // txt_matkhau
             // 
-            this.txt_matkhau.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.txt_matkhau, "txt_matkhau");
             this.txt_matkhau.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_matkhau.DefaultText = "";
             this.txt_matkhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -66,21 +63,16 @@
             this.txt_matkhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_matkhau.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_matkhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_matkhau.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_matkhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_matkhau.Location = new System.Drawing.Point(226, 284);
-            this.txt_matkhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_matkhau.Name = "txt_matkhau";
             this.txt_matkhau.PasswordChar = '\0';
             this.txt_matkhau.PlaceholderText = "";
             this.txt_matkhau.SelectedText = "";
-            this.txt_matkhau.Size = new System.Drawing.Size(300, 36);
-            this.txt_matkhau.TabIndex = 1;
             this.txt_matkhau.TextChanged += new System.EventHandler(this.txt_matkhau_TextChanged);
             // 
             // txt_taikhoan
             // 
-            this.txt_taikhoan.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.txt_taikhoan, "txt_taikhoan");
             this.txt_taikhoan.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_taikhoan.DefaultText = "";
             this.txt_taikhoan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -88,87 +80,56 @@
             this.txt_taikhoan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_taikhoan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_taikhoan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_taikhoan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txt_taikhoan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_taikhoan.Location = new System.Drawing.Point(226, 224);
-            this.txt_taikhoan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_taikhoan.Name = "txt_taikhoan";
             this.txt_taikhoan.PasswordChar = '\0';
             this.txt_taikhoan.PlaceholderText = "";
             this.txt_taikhoan.SelectedText = "";
-            this.txt_taikhoan.Size = new System.Drawing.Size(300, 36);
-            this.txt_taikhoan.TabIndex = 2;
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(128, 233);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 18);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Tài khoản :";
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(127, 300);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Mật khẩu :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // guna2CirclePictureBox1
             // 
-            this.guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.guna2CirclePictureBox1, "guna2CirclePictureBox1");
             this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = global::GUI.Properties.Resources.images;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(279, 14);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(198, 184);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox1.TabIndex = 3;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
             // btn_quenmk
             // 
-            this.btn_quenmk.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.btn_quenmk, "btn_quenmk");
             this.btn_quenmk.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btn_quenmk.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_quenmk.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_quenmk.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_quenmk.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_quenmk.ForeColor = System.Drawing.Color.White;
-            this.btn_quenmk.Location = new System.Drawing.Point(418, 326);
             this.btn_quenmk.Name = "btn_quenmk";
-            this.btn_quenmk.Size = new System.Drawing.Size(108, 22);
-            this.btn_quenmk.TabIndex = 6;
-            this.btn_quenmk.Text = "Quên mật khẩu";
             this.btn_quenmk.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // chkGhiNho
             // 
-            this.chkGhiNho.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.chkGhiNho.AutoSize = true;
+            resources.ApplyResources(this.chkGhiNho, "chkGhiNho");
             this.chkGhiNho.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.chkGhiNho.CheckedState.BorderRadius = 0;
             this.chkGhiNho.CheckedState.BorderThickness = 0;
             this.chkGhiNho.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.chkGhiNho.Location = new System.Drawing.Point(226, 331);
             this.chkGhiNho.Name = "chkGhiNho";
-            this.chkGhiNho.Size = new System.Drawing.Size(93, 17);
-            this.chkGhiNho.TabIndex = 7;
-            this.chkGhiNho.Text = "Nhớ mật khẩu";
             this.chkGhiNho.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chkGhiNho.UncheckedState.BorderRadius = 0;
             this.chkGhiNho.UncheckedState.BorderThickness = 0;
@@ -177,25 +138,27 @@
             // 
             // guna2TileButton1
             // 
-            this.guna2TileButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.guna2TileButton1, "guna2TileButton1");
             this.guna2TileButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2TileButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2TileButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2TileButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2TileButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton1.Location = new System.Drawing.Point(591, 427);
             this.guna2TileButton1.Name = "guna2TileButton1";
-            this.guna2TileButton1.Size = new System.Drawing.Size(134, 37);
-            this.guna2TileButton1.TabIndex = 8;
-            this.guna2TileButton1.Text = "Góp ý";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
-            this.ClientSize = new System.Drawing.Size(741, 477);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.guna2TileButton1);
             this.Controls.Add(this.chkGhiNho);
             this.Controls.Add(this.btn_quenmk);
@@ -205,12 +168,10 @@
             this.Controls.Add(this.txt_taikhoan);
             this.Controls.Add(this.txt_matkhau);
             this.Controls.Add(this.btn_login);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Login";
-            this.Text = "Đăng Nhập";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -228,6 +189,7 @@
         private Guna.UI2.WinForms.Guna2Button btn_quenmk;
         private Guna.UI2.WinForms.Guna2CheckBox chkGhiNho;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

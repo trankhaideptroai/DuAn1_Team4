@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DAL"
+    "\\DAL",
+    "\\GUI"
   ],
-  "SelectedNode": "\\DAL\\DataProvider.cs",
+  "SelectedNode": "\\GUI\\Login.cs",
   "PreviewInSolutionExplorer": false
 }
