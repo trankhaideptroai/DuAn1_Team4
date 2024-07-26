@@ -177,5 +177,14 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Nhập Kho\Symbols\Lưu.jpg" />
+    <Content Include="Nhập Kho\Symbols\Menu.png" />
+    <Content Include="Nhập Kho\Symbols\Reload.jpg" />
+    <Content Include="Nhập Kho\Symbols\Sửa.jpg" />
+    <Content Include="Nhập Kho\Symbols\Thêm.jpg" />
+    <Content Include="Nhập Kho\Symbols\Tìm.jpg" />
+    <Content Include="Nhập Kho\Symbols\Xóa.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

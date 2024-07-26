@@ -15,12 +15,15 @@ using System.Windows.Forms;
 using System.Web.UI.Design.WebControls;
 using BUS;
 using DAL;
+using DTO;
 
 
 namespace GUI
 {
     public partial class Main : Form
     {
+        NhapKho_BUS sp3 = new NhapKho_BUS();
+        NhapKho_DTO sp1 = new NhapKho_DTO();    
         public Main()
         {
             InitializeComponent();
@@ -43,6 +46,9 @@ namespace GUI
         private void Main_Load(object sender, EventArgs e)
         {
             LoadfromThongKe();
+            locked();
+            loadlist();
+            txt_find.Enabled = false;
         }
 
         #region ThongKe
@@ -177,5 +183,391 @@ namespace GUI
         {
 
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        #region Nhập kho
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        #region LOClLShP
+
+        void open()
+        {
+            txt_ten.Enabled = true;
+            txt_soluong.Enabled = true;
+            txt_ncc.Enabled = true;
+            txt_email.Enabled = true;
+            dTP_ngnh.Enabled = true;
+        }
+
+        void locked()
+        {
+            txt_maloai.Enabled = false;
+            txt_ten.Enabled = false;
+            txt_soluong.Enabled = false;
+            txt_ncc.Enabled = false;
+            txt_email.Enabled = false;
+            dTP_ngnh.Enabled = false;
+            dTP_hsd.Enabled = false;
+        }
+
+        void cleartext()
+        {
+            txt_maloai.Clear();
+            txt_ten.Clear();
+            txt_soluong.Clear();
+            txt_ncc.Clear();
+            txt_email.Clear();
+        }
+
+        void loadlist()
+        {
+            dtg_SPNKh.DataSource = sp3.Load();
+            dtg_SPNKh.Columns[0].HeaderText = "MaLoai";
+            dtg_SPNKh.Columns[1].HeaderText = "TenSP";
+            dtg_SPNKh.Columns[2].HeaderText = "SoLuong";
+            dtg_SPNKh.Columns[3].HeaderText = "NhaCungCap";
+            dtg_SPNKh.Columns[4].HeaderText = "NgayNhap";
+            dtg_SPNKh.Columns[5].HeaderText = "HSD";
+            dtg_SPNKh.Columns[6].HeaderText = "MaNV";
+        }
+
+        void showinf()
+        {
+            if (dtg_SPNKh.SelectedRows.Count > 0)
+            {
+                txt_maloai.Text = dtg_SPNKh.CurrentRow.Cells["MaLoai"].Value.ToString();
+                txt_ten.Text = dtg_SPNKh.CurrentRow.Cells["TenSP"].Value.ToString();
+                txt_soluong.Text = dtg_SPNKh.CurrentRow.Cells["SoLuong"].Value.ToString();
+                txt_ncc.Text = dtg_SPNKh.CurrentRow.Cells["NhaCungCap"].Value.ToString();
+                string ngayNhapStr = dtg_SPNKh.CurrentRow.Cells["NgayNhap"].Value.ToString();
+                DateTime ngayNhap;
+                if (DateTime.TryParse(ngayNhapStr, out ngayNhap))
+                {
+                    dTP_ngnh.Value = ngayNhap;
+                }
+                else
+                {
+                    MessageBox.Show("Error", " ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                string hsdStr = dtg_SPNKh.CurrentRow.Cells["HSD"].Value.ToString();
+                DateTime hsd;
+                if (DateTime.TryParse(hsdStr, out hsd))
+                {
+                    dTP_ngnh.Value = hsd;
+                }
+                else
+                {
+                    MessageBox.Show("Error", " ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        void pass()
+        {
+            if (btn_ad.Text == "Lưu")
+            {
+                cleartext();
+                locked();
+                btn_ad.Text = "Thêm";
+            }
+            else if (btn_upd.Text == "Lưu")
+            {
+                locked();
+                cleartext();
+                showinf();
+                btn_upd.Text = "Sửa";
+            }
+            else if (btn_del.Text == "Xác nhận")
+            {
+                btn_del.Text = "Xóa";
+            }
+            else if (btn_find.Text == "Tìm")
+            {
+                txt_find.Clear();
+                txt_find.Enabled = false;
+                txt_find.Text = "Nhập tên sản phẩm";
+                btn_find.Text = "Tìm kiếm";
+            }
+            else
+            {
+                loadlist();
+            }
+        }
+
+        #endregion
+
+        #region Check
+
+        bool checkTen()
+        {
+            if (string.IsNullOrEmpty(txt_ten.Text))
+            {
+                MessageBox.Show("Thiếu tên Sản phẩm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_ten.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        bool checkSoluong()
+        {
+            if (string.IsNullOrEmpty(txt_soluong.Text))
+            {
+                MessageBox.Show("Thiếu số lượng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_soluong.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        bool checkNCC()
+        {
+            if (string.IsNullOrEmpty(txt_ncc.Text))
+            {
+                MessageBox.Show("Thiếu Nhà cung cấp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_ncc.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        bool checkngnh()
+        {
+            if (dTP_ngnh.Value != DateTime.Now || dTP_ngnh.Value == null)
+            {
+                MessageBox.Show("Kiểm tra lại ngày nhập hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                dTP_ngnh.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        /*bool checkNGnh()
+        {
+            if (cb_ngnhap.Items.Count > 0)
+            {
+                MessageBox.Show("Chưa chọn ngày nhập", " ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cb_ngnhap.Focus();
+                return false;
+            }
+            return true;
+        }*/
+
+        /*bool checkHSD()
+        {
+            if (string.IsNullOrEmpty(txt_hsd.Text))
+            {
+                MessageBox.Show("Thiếu Hạn Sử Dụng", " ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_hsd.Focus();
+                return false;
+            }
+            return true;
+        }
+        */
+        bool checkTim()
+        {
+            if (string.IsNullOrEmpty(txt_find.Text))
+            {
+                MessageBox.Show("Vui lòng nhập Mã loại", " ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_find.Focus();
+                return false;
+            }
+            return true;
+        }
+
+        bool checkinput()
+        {
+            return checkTen() && checkSoluong() && checkNCC() && checkngnh(); //&& checkHSD();
+        }
+
+        #endregion
+
+        #region Even
+        void inputvalues()
+        {
+            sp1.ML= txt_maloai.Text;
+            sp1.Ten= txt_ten.Text;
+            sp1.SL= Convert.ToInt32(txt_soluong.Text);
+            sp1.NCC = txt_ncc.Text;
+            sp1.NgNH= dTP_ngnh.Value.ToString("yyyy-MM-dd");
+            sp1.HSD = dTP_hsd.Value.ToString("yyyy-MM-dd");
+            sp1.Email = txt_email.Text;
+        }
+
+        void luu()
+        {
+            if (sp3.Insert(sp1))
+            {
+                MessageBox.Show("Bạn Đã Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                cleartext();
+                locked();
+                loadlist();
+            }
+            else
+                MessageBox.Show("Bạn Đã Lưu Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        void sua()
+        {
+            inputvalues();
+            if (sp3.Update(sp1))
+            {
+                MessageBox.Show("Bạn Đã Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                cleartext();
+                loadlist();
+            }
+            else
+                MessageBox.Show("Bạn Đã Lưu Thất Bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+        }
+
+        void xoa()
+        {
+            if (string.IsNullOrEmpty(txt_maloai.Text))
+            {
+                MessageBox.Show("Vui lòng chọn một sản phẩm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                sp1.ML= txt_maloai.Text;
+                if (sp3.Delete(sp1.ML))
+                {
+                    MessageBox.Show("Xóa Thành Công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    cleartext();
+                    locked();
+                    loadlist();
+                }
+                else
+                {
+                    MessageBox.Show("Thất Bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    cleartext();
+                    locked();
+                }
+
+            }
+        }
+
+        void tim()
+        {
+            sp1.Ten= txt_find.Text;
+            DataTable danhsach = sp3.Find(sp1.Ten);
+            if (danhsach.Rows.Count > 0)
+            {
+                dtg_SPNKh.DataSource = danhsach;
+                showinf();
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy sản phẩm", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            txt_find.Text = null;
+            txt_find.Enabled = false;
+        }
+        #endregion
+
+        #region Main
+
+        private void dtg_SPNKh_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            showinf();
+        }
+
+        private void btn_ad_Click(object sender, EventArgs e)
+        {
+            if (btn_ad.Text == "Thêm")
+            {
+                MessageBox.Show("Vui lòng nhập thông tin Sản phẩm, nếu không chắc vui lòng bấm Bỏ qua", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                open();
+                cleartext();
+                btn_ad.Text = "Lưu";
+            }
+            else
+            {
+                checkinput();
+                inputvalues();
+                luu();
+                cleartext();
+                loadlist();
+                locked();
+                btn_ad.Text = "Thêm";
+            }
+
+        }
+
+        private void btn_del_Click(object sender, EventArgs e)
+        {
+            if (btn_del.Text == "Xóa")
+            {
+                MessageBox.Show("Nếu chắc chắn hãy bấm nút Xác nhận hoặc bấm nút Bỏ qua", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                btn_del.Text = "Xác nhận";
+            }
+            else
+            {
+                xoa();
+                loadlist();
+                btn_del.Text = "Xóa";
+            }
+        }
+
+        private void btn_upd_Click(object sender, EventArgs e)
+        {
+            if (btn_upd.Text == "Sửa")
+            {
+                open();
+                txt_email.Enabled = false;
+                btn_upd.Text = "Lưu";
+            }
+            else
+            {
+                sua();
+                cleartext();
+                locked();
+                loadlist();
+                btn_upd.Text = "Sửa";
+            }
+        }
+
+        private void btn_pas_Click(object sender, EventArgs e)
+        {
+            pass();
+        }
+
+        private void btn_find_Click(object sender, EventArgs e)
+        {
+            if (btn_find.Text == "Tìm kiếm")
+            {
+                MessageBox.Show("Vui lòng nhập tên Sản phẩm, nếu không nhớ vui lòng bấm Bỏ qua", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txt_find.Enabled = true;
+                txt_find.Text = null;
+                txt_find.Focus();
+                btn_find.Text = "Tìm";
+            }
+            else
+            {
+                tim();
+                txt_find.Enabled = false;
+                txt_find.Clear();
+                txt_find.Text = "Nhập tên sản phâm";
+                btn_find.Text = "Tìm kiếm";
+            }
+        }
+
+        private void btn_M_Click(object sender, EventArgs e)
+        {
+            tab_control.SelectTab(tabPage1);
+        }
+
+        #endregion
+
+        #endregion
     }
 }
