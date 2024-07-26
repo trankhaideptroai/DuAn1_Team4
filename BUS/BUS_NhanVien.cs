@@ -15,7 +15,10 @@ namespace BUS
             
             return dAL_NhanVien.CheckLogin(email, password);
         }
-        
+        public string GetUserRole(string email)
+        {
+            return dAL_NhanVien.GetUserRole(email);
+        }
 
     }
 }

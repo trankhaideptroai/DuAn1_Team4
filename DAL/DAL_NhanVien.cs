@@ -24,5 +24,34 @@ namespace DAL
                 return result > 0;
             }
         }
+
+        public string GetUserRole(string email)
+        {
+            string role = string.Empty;
+            string query = "SELECT ChucVu FROM NhanVien WHERE Email = @Email";
+
+            using (SqlConnection conn = DataProvider.connect())
+            {
+                SqlCommand command = new SqlCommand(query, conn);
+                command.Parameters.AddWithValue("@Email", email);
+
+                try
+                {
+                    conn.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        role = reader["ChucVu"].ToString();
+                    }
+                }
+                catch (Exception)
+                {
+                    // Handle exception
+                }
+            }
+
+            return role;
+        }
+
     }
 }

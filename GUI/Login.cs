@@ -10,11 +10,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Cryptography;
+using DevExpress.XtraBars.Navigation;
+
 
 namespace GUI
 {
     public partial class Login : Form
     {
+        private MD5 _md5 = MD5.Create();
         public Login()
         {
             InitializeComponent();
@@ -23,6 +27,8 @@ namespace GUI
             txt_matkhau.UseSystemPasswordChar = true;
             LoadRememberedLogin();
         }
+        
+
         private void LoadRememberedLogin()
         {
             // Kiểm tra xem có lưu trữ thông tin đăng nhập hay không
@@ -40,29 +46,38 @@ namespace GUI
             }
         }
         BUS_NhanVien bUSNhanVien = new BUS_NhanVien();
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (txt_taikhoan.Text != "" && txt_matkhau.Text != "")
             {
-                if (bUSNhanVien.checklogin(txt_taikhoan.Text, txt_matkhau.Text))
+                string encryptedPassword = EncryptPassword(txt_matkhau.Text);
+                if (bUSNhanVien.checklogin(txt_taikhoan.Text, encryptedPassword))
                 {
                     MessageBox.Show("Đăng nhập thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     if (chkGhiNho.Checked)
                     {
                         Properties.Settings.Default.Username = txt_taikhoan.Text;
-                        Properties.Settings.Default.Password = txt_matkhau.Text; 
+                        Properties.Settings.Default.Password = txt_matkhau.Text;
                         Properties.Settings.Default.Save();
                     }
 
                     Main h = new Main();
                     h.Show();
+
+                    // Kiểm tra phân quyền
+                    string role = bUSNhanVien.GetUserRole(txt_taikhoan.Text);
+                    if (role != "Manager")
+                    {
+                        h.LimitAccess();
+                    }
+
                     this.Hide();
                 }
                 else
                 {
                     MessageBox.Show("Sai email hoặc mật khẩu!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    // Clear the text boxes on login failure
                     txt_taikhoan.Clear();
                     txt_matkhau.Clear();
                     Properties.Settings.Default.Username = txt_taikhoan.Text;
@@ -76,6 +91,24 @@ namespace GUI
             }
         }
 
+        private void ClearLoginFields()
+        {
+            txt_taikhoan.Clear();
+            txt_matkhau.Clear();
+            Properties.Settings.Default.Reset();
+        }
+        private string EncryptPassword(string password)
+        {
+            byte[] encryptedBytes = _md5.ComputeHash(Encoding.UTF8.GetBytes(password));
+            StringBuilder sb = new StringBuilder();
+            foreach (byte b in encryptedBytes)
+            {
+                sb.Append(b.ToString("x2"));
+            }
+            return sb.ToString();
+        }
+
+        DAL_NhanVien dAL_NhanVien = new DAL_NhanVien();
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {

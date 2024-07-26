@@ -27,6 +27,7 @@ namespace GUI
         public Main()
         {
             InitializeComponent();
+            tabPageToDisable = tab_control.TabPages["tabPage5"];
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -160,8 +161,14 @@ namespace GUI
         }
 
         #endregion
-
-
+        private TabPage tabPageToDisable;
+        public void LimitAccess()
+        {
+            if (tab_control.TabPages.Contains(tabPageToDisable))
+            {
+                tab_control.TabPages.Remove(tabPageToDisable);
+            }
+        }
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -569,5 +576,25 @@ namespace GUI
         #endregion
 
         #endregion
+
+        private void tabPage7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tab_control_VisibleChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tab_control_ControlRemoved(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

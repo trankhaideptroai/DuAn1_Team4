@@ -38,7 +38,6 @@
             this.btn_quenmk = new Guna.UI2.WinForms.Guna2Button();
             this.chkGhiNho = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,14 +88,14 @@
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
-            this.label1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Name = "label1";
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
-            this.label2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Name = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -146,19 +145,10 @@
             this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
             this.guna2TileButton1.Name = "guna2TileButton1";
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // Login
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.guna2TileButton1);
             this.Controls.Add(this.chkGhiNho);
             this.Controls.Add(this.btn_quenmk);
@@ -189,7 +179,6 @@
         private Guna.UI2.WinForms.Guna2Button btn_quenmk;
         private Guna.UI2.WinForms.Guna2CheckBox chkGhiNho;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
-        private System.Windows.Forms.Button button1;
     }
 }
 

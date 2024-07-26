@@ -43,19 +43,20 @@ namespace GUI
             return builder.ToString();
         }
 
-        private string Encrypt(string password)
+        private string EncryptPassword(string password)
         {
-            using (SHA256 sha256 = SHA256.Create())
+            using (MD5 md5 = MD5.Create())
             {
-                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                StringBuilder builder = new StringBuilder();
-                foreach (byte b in bytes)
+                byte[] encryptedBytes = md5.ComputeHash(Encoding.UTF8.GetBytes(password));
+                StringBuilder sb = new StringBuilder();
+                foreach (byte b in encryptedBytes)
                 {
-                    builder.Append(b.ToString("x2"));
+                    sb.Append(b.ToString("x2"));
                 }
-                return builder.ToString();
+                return sb.ToString();
             }
         }
+
 
         private void SendEmail(string toEmail, string newPassword)
         {
@@ -108,12 +109,12 @@ namespace GUI
             string newPassword = GetPassword();
             SendEmail(email, newPassword);
 
-            // Update the password in the database
-            string encryptedPassword = Encrypt(newPassword);
-            UpdatePasswordInDatabase(email, newPassword);
+            // Mã hóa mật khẩu trước khi cập nhật trong cơ sở dữ liệu
+            string encryptedPassword = EncryptPassword(newPassword);
+            UpdatePasswordInDatabase(email, encryptedPassword);
         }
 
-        private void UpdatePasswordInDatabase(string email, string newPassword)
+        private void UpdatePasswordInDatabase(string email, string encryptedPassword)
         {
             string connectionString = @"Data Source=DESKTOP-3OM6LVM;Initial Catalog=database_duan1;Integrated Security=True"; // Replace with your actual connection string
 
@@ -122,7 +123,7 @@ namespace GUI
                 string query = "UPDATE NhanVien SET MatKhau = @MatKhau WHERE Email = @Email";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@MatKhau", newPassword);
+                    command.Parameters.AddWithValue("@MatKhau", encryptedPassword);
                     command.Parameters.AddWithValue("@Email", email);
 
                     try
