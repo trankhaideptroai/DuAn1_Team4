@@ -22,12 +22,14 @@ namespace GUI
 {
     public partial class Main : Form
     {
+        public string email {  get; set; }
         NhapKho_BUS sp3 = new NhapKho_BUS();
         NhapKho_DTO sp1 = new NhapKho_DTO();    
-        public Main()
+        public Main(string Email)
         {
             InitializeComponent();
             tabPageToDisable = tab_control.TabPages["tabPage5"];
+            this.email = Email;
         }
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
@@ -198,11 +200,6 @@ namespace GUI
 
         #region Nhập kho
 
-        private void tabPage6_Click(object sender, EventArgs e)
-        {
-
-        }
-
         #region LOClLShP
 
         void open()
@@ -210,8 +207,6 @@ namespace GUI
             txt_ten.Enabled = true;
             txt_soluong.Enabled = true;
             txt_ncc.Enabled = true;
-            txt_email.Enabled = true;
-            dTP_ngnh.Enabled = true;
         }
 
         void locked()
@@ -248,8 +243,6 @@ namespace GUI
 
         void showinf()
         {
-            if (dtg_SPNKh.SelectedRows.Count > 0)
-            {
                 txt_maloai.Text = dtg_SPNKh.CurrentRow.Cells["MaLoai"].Value.ToString();
                 txt_ten.Text = dtg_SPNKh.CurrentRow.Cells["TenSP"].Value.ToString();
                 txt_soluong.Text = dtg_SPNKh.CurrentRow.Cells["SoLuong"].Value.ToString();
@@ -275,7 +268,6 @@ namespace GUI
                 {
                     MessageBox.Show("Error", " ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
         }
 
         void pass()
@@ -325,17 +317,6 @@ namespace GUI
             return true;
         }
 
-        bool checkSoluong()
-        {
-            if (string.IsNullOrEmpty(txt_soluong.Text))
-            {
-                MessageBox.Show("Thiếu số lượng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txt_soluong.Focus();
-                return false;
-            }
-            return true;
-        }
-
         bool checkNCC()
         {
             if (string.IsNullOrEmpty(txt_ncc.Text))
@@ -347,9 +328,10 @@ namespace GUI
             return true;
         }
 
+        /*
         bool checkngnh()
         {
-            if (dTP_ngnh.Value != DateTime.Now || dTP_ngnh.Value == null)
+            if (dTP_ngnh.Value < DateTime.Now)
             {
                 MessageBox.Show("Kiểm tra lại ngày nhập hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 dTP_ngnh.Focus();
@@ -393,7 +375,7 @@ namespace GUI
 
         bool checkinput()
         {
-            return checkTen() && checkSoluong() && checkNCC() && checkngnh(); //&& checkHSD();
+            return checkTen() && checkNCC(); //&& checkHSD();
         }
 
         #endregion
@@ -403,11 +385,26 @@ namespace GUI
         {
             sp1.ML= txt_maloai.Text;
             sp1.Ten= txt_ten.Text;
-            sp1.SL= Convert.ToInt32(txt_soluong.Text);
+            try
+            {
+                int parsedValue;
+                if (int.TryParse(txt_soluong.Text, out parsedValue) && parsedValue > 0)
+                {
+                    sp1.SL = parsedValue;
+                }
+                else
+                {
+                    MessageBox.Show("Kiểm tra lại số lượng","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Chưa có số lượng nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             sp1.NCC = txt_ncc.Text;
-            sp1.NgNH= dTP_ngnh.Value.ToString("yyyy-MM-dd");
-            sp1.HSD = dTP_hsd.Value.ToString("yyyy-MM-dd");
-            sp1.Email = txt_email.Text;
+            sp1.NgNH= dTP_ngnh.Value;
+            sp1.HSD = dTP_hsd.Value;
+            sp1.Email = email;
         }
 
         void luu()
@@ -527,19 +524,28 @@ namespace GUI
 
         private void btn_upd_Click(object sender, EventArgs e)
         {
-            if (btn_upd.Text == "Sửa")
+            if(!string.IsNullOrEmpty(txt_maloai.Text))
             {
-                open();
-                txt_email.Enabled = false;
-                btn_upd.Text = "Lưu";
+                if (btn_upd.Text == "Sửa")
+                {
+                    MessageBox.Show("Vui lòng nhập thông tin mới Sản phẩm, nếu không chắc vui lòng bấm Bỏ qua", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    open();
+                    txt_email.Enabled = false;
+                    btn_upd.Text = "Lưu";
+                }
+                else
+                {
+                    sua();
+                    cleartext();
+                    locked();
+                    loadlist();
+                    btn_upd.Text = "Sửa";
+                }
             }
             else
             {
-                sua();
-                cleartext();
-                locked();
-                loadlist();
-                btn_upd.Text = "Sửa";
+                MessageBox.Show("Bạn chưa chọn sản phẩm để sửa", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                btn_upd.Focus();
             }
         }
 
@@ -571,6 +577,15 @@ namespace GUI
         private void btn_M_Click(object sender, EventArgs e)
         {
             tab_control.SelectTab(tabPage1);
+        }
+
+        #endregion
+
+        #region trash
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+
         }
 
         #endregion

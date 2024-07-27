@@ -11,8 +11,8 @@ namespace DTO
         protected string maloai {  get; set; }
         protected string ten {  get; set; }
         protected int soluong { get; set; }
-        protected string ngnh { get; set; }
-        protected string hsd { get; set; }
+        protected DateTime ngnh { get; set; }
+        protected DateTime hsd { get; set; }
         protected string ncc { get; set; }
         protected string email { get; set; }
 
@@ -32,8 +32,8 @@ namespace DTO
                 else { }
             }
         }
-        public string NgNH { get; set; }
-        public string HSD { get; set; }
+        public DateTime NgNH { get; set; }
+        public DateTime HSD { get; set; }
         public string NCC { get; set; }
         public string Email { get; set; }
 

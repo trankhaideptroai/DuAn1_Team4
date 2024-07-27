@@ -88,9 +88,9 @@
             this.tabPage8.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage8.Location = new System.Drawing.Point(184, 4);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage8.Size = new System.Drawing.Size(1895, 968);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Thoát";
@@ -99,7 +99,6 @@
             // 
             // tabPage7
             // 
-            this.tabPage7.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox12);
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox11);
@@ -114,9 +113,9 @@
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox2);
             this.tabPage7.Controls.Add(this.guna2ImageCheckBox1);
             this.tabPage7.Location = new System.Drawing.Point(184, 4);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage7.Size = new System.Drawing.Size(1895, 968);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Bàn ăn";
@@ -132,7 +131,7 @@
             this.guna2ImageCheckBox12.ImageRotate = 0F;
             this.guna2ImageCheckBox12.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox12.Location = new System.Drawing.Point(93, 510);
-            this.guna2ImageCheckBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox12.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox12.Name = "guna2ImageCheckBox12";
             this.guna2ImageCheckBox12.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox12.TabIndex = 37;
@@ -146,7 +145,7 @@
             this.guna2ImageCheckBox11.ImageRotate = 0F;
             this.guna2ImageCheckBox11.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox11.Location = new System.Drawing.Point(368, 510);
-            this.guna2ImageCheckBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox11.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox11.Name = "guna2ImageCheckBox11";
             this.guna2ImageCheckBox11.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox11.TabIndex = 36;
@@ -160,7 +159,7 @@
             this.guna2ImageCheckBox10.ImageRotate = 0F;
             this.guna2ImageCheckBox10.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox10.Location = new System.Drawing.Point(935, 510);
-            this.guna2ImageCheckBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox10.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox10.Name = "guna2ImageCheckBox10";
             this.guna2ImageCheckBox10.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox10.TabIndex = 34;
@@ -174,7 +173,7 @@
             this.guna2ImageCheckBox9.ImageRotate = 0F;
             this.guna2ImageCheckBox9.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox9.Location = new System.Drawing.Point(644, 510);
-            this.guna2ImageCheckBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox9.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox9.Name = "guna2ImageCheckBox9";
             this.guna2ImageCheckBox9.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox9.TabIndex = 35;
@@ -188,7 +187,7 @@
             this.guna2ImageCheckBox8.ImageRotate = 0F;
             this.guna2ImageCheckBox8.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox8.Location = new System.Drawing.Point(368, 283);
-            this.guna2ImageCheckBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox8.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox8.Name = "guna2ImageCheckBox8";
             this.guna2ImageCheckBox8.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox8.TabIndex = 33;
@@ -202,7 +201,7 @@
             this.guna2ImageCheckBox7.ImageRotate = 0F;
             this.guna2ImageCheckBox7.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox7.Location = new System.Drawing.Point(93, 283);
-            this.guna2ImageCheckBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox7.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox7.Name = "guna2ImageCheckBox7";
             this.guna2ImageCheckBox7.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox7.TabIndex = 32;
@@ -216,7 +215,7 @@
             this.guna2ImageCheckBox6.ImageRotate = 0F;
             this.guna2ImageCheckBox6.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox6.Location = new System.Drawing.Point(368, 42);
-            this.guna2ImageCheckBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox6.Name = "guna2ImageCheckBox6";
             this.guna2ImageCheckBox6.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox6.TabIndex = 31;
@@ -230,7 +229,7 @@
             this.guna2ImageCheckBox5.ImageRotate = 0F;
             this.guna2ImageCheckBox5.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox5.Location = new System.Drawing.Point(935, 42);
-            this.guna2ImageCheckBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox5.Name = "guna2ImageCheckBox5";
             this.guna2ImageCheckBox5.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox5.TabIndex = 30;
@@ -244,7 +243,7 @@
             this.guna2ImageCheckBox4.ImageRotate = 0F;
             this.guna2ImageCheckBox4.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox4.Location = new System.Drawing.Point(644, 42);
-            this.guna2ImageCheckBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox4.Name = "guna2ImageCheckBox4";
             this.guna2ImageCheckBox4.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox4.TabIndex = 29;
@@ -258,7 +257,7 @@
             this.guna2ImageCheckBox3.ImageRotate = 0F;
             this.guna2ImageCheckBox3.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox3.Location = new System.Drawing.Point(935, 283);
-            this.guna2ImageCheckBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox3.Name = "guna2ImageCheckBox3";
             this.guna2ImageCheckBox3.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox3.TabIndex = 28;
@@ -272,7 +271,7 @@
             this.guna2ImageCheckBox2.ImageRotate = 0F;
             this.guna2ImageCheckBox2.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox2.Location = new System.Drawing.Point(644, 283);
-            this.guna2ImageCheckBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox2.Name = "guna2ImageCheckBox2";
             this.guna2ImageCheckBox2.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox2.TabIndex = 27;
@@ -286,19 +285,18 @@
             this.guna2ImageCheckBox1.ImageRotate = 0F;
             this.guna2ImageCheckBox1.ImageSize = new System.Drawing.Size(200, 150);
             this.guna2ImageCheckBox1.Location = new System.Drawing.Point(93, 42);
-            this.guna2ImageCheckBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageCheckBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageCheckBox1.Name = "guna2ImageCheckBox1";
             this.guna2ImageCheckBox1.Size = new System.Drawing.Size(221, 187);
             this.guna2ImageCheckBox1.TabIndex = 26;
             // 
             // tabPage5
             // 
-            this.tabPage5.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage5.Location = new System.Drawing.Point(184, 4);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage5.Size = new System.Drawing.Size(1895, 968);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Nhân viên";
@@ -306,14 +304,13 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage4.Controls.Add(this.btnXuatPDF);
             this.tabPage4.Controls.Add(this.dtgvThongKe);
             this.tabPage4.Location = new System.Drawing.Point(184, 4);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage4.Size = new System.Drawing.Size(1895, 968);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thống kê";
@@ -321,9 +318,11 @@
             // 
             // btnXuatPDF
             // 
+            this.btnXuatPDF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnXuatPDF.BackColor = System.Drawing.Color.Blue;
             this.btnXuatPDF.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnXuatPDF.Location = new System.Drawing.Point(833, 390);
+            this.btnXuatPDF.Location = new System.Drawing.Point(1065, 390);
             this.btnXuatPDF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXuatPDF.Name = "btnXuatPDF";
             this.btnXuatPDF.Size = new System.Drawing.Size(132, 46);
@@ -334,9 +333,12 @@
             // 
             // dtgvThongKe
             // 
+            this.dtgvThongKe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgvThongKe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvThongKe.Location = new System.Drawing.Point(69, 66);
+            this.dtgvThongKe.Location = new System.Drawing.Point(300, 66);
             this.dtgvThongKe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgvThongKe.Name = "dtgvThongKe";
             this.dtgvThongKe.RowHeadersWidth = 62;
@@ -348,12 +350,11 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage3.Location = new System.Drawing.Point(184, 4);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage3.Size = new System.Drawing.Size(1895, 968);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Hoá đơn";
@@ -362,12 +363,11 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage2.Location = new System.Drawing.Point(184, 4);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1895, 968);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Thực đơn";
@@ -378,9 +378,9 @@
             this.tabPage1.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Location = new System.Drawing.Point(184, 4);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1895, 968);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Trang chủ";
@@ -404,7 +404,7 @@
             this.tab_control.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.tab_control.ItemSize = new System.Drawing.Size(180, 70);
             this.tab_control.Location = new System.Drawing.Point(0, 2);
-            this.tab_control.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tab_control.Margin = new System.Windows.Forms.Padding(4);
             this.tab_control.Name = "tab_control";
             this.tab_control.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tab_control.SelectedIndex = 0;
@@ -433,7 +433,6 @@
             // 
             // tabPage6
             // 
-            this.tabPage6.BackgroundImage = global::GUI.Properties.Resources.Untitled_design;
             this.tabPage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage6.Controls.Add(this.btn_ad);
             this.tabPage6.Controls.Add(this.btn_del);
@@ -470,9 +469,11 @@
             // 
             // btn_ad
             // 
+            this.btn_ad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_ad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_ad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ad.Location = new System.Drawing.Point(424, 699);
+            this.btn_ad.Location = new System.Drawing.Point(429, 647);
             this.btn_ad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_ad.Name = "btn_ad";
             this.btn_ad.Size = new System.Drawing.Size(101, 37);
@@ -483,9 +484,11 @@
             // 
             // btn_del
             // 
+            this.btn_del.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_del.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_del.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_del.Location = new System.Drawing.Point(650, 699);
+            this.btn_del.Location = new System.Drawing.Point(655, 647);
             this.btn_del.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_del.Name = "btn_del";
             this.btn_del.Size = new System.Drawing.Size(101, 37);
@@ -496,9 +499,11 @@
             // 
             // btn_upd
             // 
+            this.btn_upd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_upd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_upd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_upd.Location = new System.Drawing.Point(863, 699);
+            this.btn_upd.Location = new System.Drawing.Point(868, 647);
             this.btn_upd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_upd.Name = "btn_upd";
             this.btn_upd.Size = new System.Drawing.Size(101, 37);
@@ -509,9 +514,11 @@
             // 
             // btn_pas
             // 
+            this.btn_pas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_pas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_pas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_pas.Location = new System.Drawing.Point(1078, 699);
+            this.btn_pas.Location = new System.Drawing.Point(1083, 647);
             this.btn_pas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_pas.Name = "btn_pas";
             this.btn_pas.Size = new System.Drawing.Size(101, 37);
@@ -522,9 +529,11 @@
             // 
             // btn_M
             // 
+            this.btn_M.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_M.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_M.Location = new System.Drawing.Point(1287, 699);
+            this.btn_M.Location = new System.Drawing.Point(1292, 647);
             this.btn_M.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_M.Name = "btn_M";
             this.btn_M.Size = new System.Drawing.Size(101, 37);
@@ -535,6 +544,9 @@
             // 
             // dTP_hsd
             // 
+            this.dTP_hsd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dTP_hsd.Location = new System.Drawing.Point(1168, 149);
             this.dTP_hsd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dTP_hsd.Name = "dTP_hsd";
@@ -543,6 +555,9 @@
             // 
             // dTP_ngnh
             // 
+            this.dTP_ngnh.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dTP_ngnh.Location = new System.Drawing.Point(1168, 82);
             this.dTP_ngnh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dTP_ngnh.Name = "dTP_ngnh";
@@ -551,34 +566,42 @@
             // 
             // dtg_SPNKh
             // 
+            this.dtg_SPNKh.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dtg_SPNKh.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtg_SPNKh.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg_SPNKh.Location = new System.Drawing.Point(235, 341);
+            this.dtg_SPNKh.Location = new System.Drawing.Point(194, 341);
             this.dtg_SPNKh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtg_SPNKh.Name = "dtg_SPNKh";
             this.dtg_SPNKh.RowHeadersWidth = 51;
             this.dtg_SPNKh.RowTemplate.Height = 24;
             this.dtg_SPNKh.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtg_SPNKh.Size = new System.Drawing.Size(1331, 265);
+            this.dtg_SPNKh.Size = new System.Drawing.Size(1372, 194);
             this.dtg_SPNKh.TabIndex = 21;
             this.dtg_SPNKh.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtg_SPNKh_CellContentClick);
             // 
             // btn_find
             // 
-            this.btn_find.BackgroundImage = global::GUI.Properties.Resources.Tìm;
+            this.btn_find.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_find.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_find.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_find.Location = new System.Drawing.Point(959, 622);
+            this.btn_find.Location = new System.Drawing.Point(1018, 582);
             this.btn_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_find.Name = "btn_find";
             this.btn_find.Size = new System.Drawing.Size(101, 37);
             this.btn_find.TabIndex = 14;
+            this.btn_find.Text = "Tìm kiếm";
             this.btn_find.UseVisualStyleBackColor = true;
             this.btn_find.Click += new System.EventHandler(this.btn_find_Click);
             // 
             // txt_find
             // 
-            this.txt_find.Location = new System.Drawing.Point(642, 629);
+            this.txt_find.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_find.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_find.Location = new System.Drawing.Point(701, 589);
             this.txt_find.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_find.Name = "txt_find";
             this.txt_find.Size = new System.Drawing.Size(247, 22);
@@ -586,6 +609,9 @@
             // 
             // txt_ten
             // 
+            this.txt_ten.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_ten.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_ten.Location = new System.Drawing.Point(592, 158);
             this.txt_ten.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -595,15 +621,22 @@
             // 
             // txt_soluong
             // 
+            this.txt_soluong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_soluong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_soluong.Location = new System.Drawing.Point(592, 231);
             this.txt_soluong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_soluong.Name = "txt_soluong";
             this.txt_soluong.Size = new System.Drawing.Size(246, 22);
             this.txt_soluong.TabIndex = 11;
+            this.txt_soluong.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txt_ncc
             // 
+            this.txt_ncc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_ncc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_ncc.Location = new System.Drawing.Point(592, 302);
             this.txt_ncc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -613,6 +646,9 @@
             // 
             // txt_email
             // 
+            this.txt_email.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_email.Location = new System.Drawing.Point(1168, 235);
             this.txt_email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -623,6 +659,9 @@
             // 
             // txt_maloai
             // 
+            this.txt_maloai.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_maloai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_maloai.Location = new System.Drawing.Point(592, 82);
             this.txt_maloai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -632,6 +671,9 @@
             // 
             // label8
             // 
+            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(980, 74);
@@ -642,6 +684,9 @@
             // 
             // label7
             // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(980, 149);
@@ -652,6 +697,9 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(980, 224);
@@ -662,6 +710,9 @@
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(388, 293);
@@ -672,6 +723,9 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(388, 74);
@@ -682,6 +736,9 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(388, 149);
@@ -692,6 +749,9 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(388, 224);
@@ -702,6 +762,9 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(709, 2);
@@ -717,9 +780,10 @@
             this.ClientSize = new System.Drawing.Size(1924, 753);
             this.Controls.Add(this.tab_control);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
             this.Text = "Main";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
             this.tabPage7.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);

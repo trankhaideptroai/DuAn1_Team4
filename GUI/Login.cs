@@ -63,16 +63,16 @@ namespace GUI
                         Properties.Settings.Default.Save();
                     }
 
-                    Main h = new Main();
-                    h.Show();
+                    string email = txt_taikhoan.Text;
+                    Main h = new Main(email);
 
-                    // Kiểm tra phân quyền
-                    string role = bUSNhanVien.GetUserRole(txt_taikhoan.Text);
+                    string role = bUSNhanVien.GetUserRole(email);
                     if (role != "Manager")
                     {
                         h.LimitAccess();
                     }
 
+                    h.Show();
                     this.Hide();
                 }
                 else
