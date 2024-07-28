@@ -26,7 +26,7 @@ namespace DAL
             }
             return data;
         }
-
+        // using (SqlConnection conn = DataProvider.connect())
         public static SqlConnection connect()
         {
             return new SqlConnection(connectionstr);

@@ -52,3 +52,9 @@ C:\Users\TranTanKhai\Downloads\News\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.Assembl
 C:\Users\TranTanKhai\Downloads\News\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\TranTanKhai\Downloads\News\DuAn1_Team4\DTO\obj\Debug\DTO.dll
 C:\Users\TranTanKhai\Downloads\News\DuAn1_Team4\DTO\obj\Debug\DTO.pdb
+D:\DuAn1\DuAn1_Team4\DTO\bin\Debug\DTO.dll
+D:\DuAn1\DuAn1_Team4\DTO\bin\Debug\DTO.pdb
+D:\DuAn1\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\DuAn1\DuAn1_Team4\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\DuAn1\DuAn1_Team4\DTO\obj\Debug\DTO.dll
+D:\DuAn1\DuAn1_Team4\DTO\obj\Debug\DTO.pdb

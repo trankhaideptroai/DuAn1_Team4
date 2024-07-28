@@ -45,7 +45,13 @@
             this.guna2ImageCheckBox1 = new Guna.UI2.WinForms.Guna2ImageCheckBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpNgayBatDau = new System.Windows.Forms.DateTimePicker();
             this.btnXuatPDF = new System.Windows.Forms.Button();
+            this.btntimkiem = new System.Windows.Forms.Button();
+            this.dtpNgayKetThuc = new System.Windows.Forms.DateTimePicker();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.dtgvThongKe = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -77,6 +83,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage7.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvThongKe)).BeginInit();
             this.tab_control.SuspendLayout();
             this.tabPage6.SuspendLayout();
@@ -304,9 +311,11 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.tabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage4.Controls.Add(this.btnXuatPDF);
+            this.tabPage4.Controls.Add(this.groupBox1);
             this.tabPage4.Controls.Add(this.dtgvThongKe);
+            this.tabPage4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tabPage4.Location = new System.Drawing.Point(184, 4);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
@@ -314,22 +323,90 @@
             this.tabPage4.Size = new System.Drawing.Size(1895, 968);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thống kê";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.dtpNgayBatDau);
+            this.groupBox1.Controls.Add(this.btnXuatPDF);
+            this.groupBox1.Controls.Add(this.btntimkiem);
+            this.groupBox1.Controls.Add(this.dtpNgayKetThuc);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Location = new System.Drawing.Point(117, 69);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(916, 210);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            // 
+            // dtpNgayBatDau
+            // 
+            this.dtpNgayBatDau.Location = new System.Drawing.Point(180, 33);
+            this.dtpNgayBatDau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpNgayBatDau.Name = "dtpNgayBatDau";
+            this.dtpNgayBatDau.Size = new System.Drawing.Size(261, 22);
+            this.dtpNgayBatDau.TabIndex = 2;
             // 
             // btnXuatPDF
             // 
             this.btnXuatPDF.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnXuatPDF.BackColor = System.Drawing.Color.Blue;
+            this.btnXuatPDF.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXuatPDF.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnXuatPDF.Location = new System.Drawing.Point(1065, 390);
+            this.btnXuatPDF.Location = new System.Drawing.Point(714, 141);
             this.btnXuatPDF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXuatPDF.Name = "btnXuatPDF";
-            this.btnXuatPDF.Size = new System.Drawing.Size(132, 46);
+            this.btnXuatPDF.Size = new System.Drawing.Size(172, 46);
             this.btnXuatPDF.TabIndex = 1;
             this.btnXuatPDF.Text = "Xuất PDF";
             this.btnXuatPDF.UseVisualStyleBackColor = false;
             this.btnXuatPDF.Click += new System.EventHandler(this.btnXuatPDF_Click);
+            // 
+            // btntimkiem
+            // 
+            this.btntimkiem.BackColor = System.Drawing.Color.Blue;
+            this.btntimkiem.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btntimkiem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btntimkiem.Location = new System.Drawing.Point(516, 45);
+            this.btntimkiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btntimkiem.Name = "btntimkiem";
+            this.btntimkiem.Size = new System.Drawing.Size(128, 47);
+            this.btntimkiem.TabIndex = 6;
+            this.btntimkiem.Text = "Tìm Kiếm";
+            this.btntimkiem.UseVisualStyleBackColor = false;
+            this.btntimkiem.Click += new System.EventHandler(this.btntimkiem_Click);
+            // 
+            // dtpNgayKetThuc
+            // 
+            this.dtpNgayKetThuc.Location = new System.Drawing.Point(180, 91);
+            this.dtpNgayKetThuc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpNgayKetThuc.Name = "dtpNgayKetThuc";
+            this.dtpNgayKetThuc.Size = new System.Drawing.Size(261, 22);
+            this.dtpNgayKetThuc.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Blue;
+            this.label9.Location = new System.Drawing.Point(28, 94);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(125, 19);
+            this.label9.TabIndex = 5;
+            this.label9.Text = "Ngày Kết Thúc";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Blue;
+            this.label10.Location = new System.Drawing.Point(28, 36);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(117, 19);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "Ngay Bắt Đầu";
             // 
             // dtgvThongKe
             // 
@@ -338,7 +415,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgvThongKe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvThongKe.Location = new System.Drawing.Point(300, 66);
+            this.dtgvThongKe.Location = new System.Drawing.Point(117, 332);
             this.dtgvThongKe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgvThongKe.Name = "dtgvThongKe";
             this.dtgvThongKe.RowHeadersWidth = 62;
@@ -403,7 +480,7 @@
             this.tab_control.Controls.Add(this.tabPage8);
             this.tab_control.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.tab_control.ItemSize = new System.Drawing.Size(180, 70);
-            this.tab_control.Location = new System.Drawing.Point(0, 2);
+            this.tab_control.Location = new System.Drawing.Point(3, 4);
             this.tab_control.Margin = new System.Windows.Forms.Padding(4);
             this.tab_control.Name = "tab_control";
             this.tab_control.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -787,6 +864,8 @@
             this.Load += new System.EventHandler(this.Main_Load);
             this.tabPage7.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvThongKe)).EndInit();
             this.tab_control.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
@@ -847,5 +926,11 @@
         private System.Windows.Forms.Button btn_upd;
         private System.Windows.Forms.Button btn_pas;
         private System.Windows.Forms.Button btn_M;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DateTimePicker dtpNgayBatDau;
+        private System.Windows.Forms.Button btntimkiem;
+        private System.Windows.Forms.DateTimePicker dtpNgayKetThuc;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }

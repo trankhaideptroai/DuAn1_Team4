@@ -48,7 +48,7 @@ namespace GUI
 
         private void Main_Load(object sender, EventArgs e)
         {
-            LoadfromThongKe();
+            
             locked();
             loadlist();
             txt_find.Enabled = false;
@@ -56,38 +56,38 @@ namespace GUI
 
         #region ThongKe
 
-        private void LoadfromThongKe()
+
+        private void LoadThongKe(DateTime ngaybatdau, DateTime ngayketthuc)
         {
             // Chuỗi kết nối tới cơ sở dữ liệu
-            // Tạo kết nối
+
+
             using (SqlConnection conn = DataProvider.connect())
             {
                 try
                 {
-                    // Mở kết nối
+                    // Mở kết nối tới cơ sở dữ liệu
                     conn.Open();
 
-                    // Tạo đối tượng SqlCommand để gọi Stored Procedure
-                    using (SqlCommand cmd = new SqlCommand("thongke", conn))
+                    // Tạo đối tượng SqlCommand để gọi stored procedure "timkiemTk"
+                    using (SqlCommand cmd = new SqlCommand("timkiemTk", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
+                        // Thêm tham số @NgayBatDau và @NgayKetThuc vào stored procedure
+                        cmd.Parameters.AddWithValue("@NgayBatDau", ngaybatdau);
+                        cmd.Parameters.AddWithValue("@NgayKetThuc", ngayketthuc);
 
-                        // Tạo đối tượng SqlDataAdapter để lấy dữ liệu
+                        // Sử dụng SqlDataAdapter để lấy dữ liệu từ stored procedure
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
-
-                        // Tạo DataTable để lưu dữ liệu
                         DataTable dt = new DataTable();
-
-                        // Đổ dữ liệu vào DataTable
                         da.Fill(dt);
-
-                        // Gán DataTable làm nguồn dữ liệu cho DataGridView
+                        // Gán dữ liệu vào DataGridView để hiển thị
                         dtgvThongKe.DataSource = dt;
                     }
                 }
                 catch (Exception ex)
                 {
-                    // Xử lý ngoại lệ (nếu có)
+                    // Hiển thị thông báo lỗi nếu có lỗi xảy ra
                     MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
                 }
             }
@@ -95,33 +95,26 @@ namespace GUI
 
         private void btnXuatPDF_Click(object sender, EventArgs e)
         {
-            // Tạo và cấu hình SaveFileDialog
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "PDF Files|*.pdf";
             saveFileDialog.Title = "Lưu file PDF";
             saveFileDialog.FileName = "exported_data.pdf";
 
-            // Hiển thị SaveFileDialog và kiểm tra nếu người dùng đã chọn file
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                // Lấy đường dẫn được người dùng chọn
                 string pdfPath = saveFileDialog.FileName;
-
-                // Tạo tài liệu PDF mới
                 Document pdfDoc = new Document(PageSize.A4, 10, 10, 10, 10);
 
                 try
                 {
-                    // Tạo writer để ghi tài liệu vào đường dẫn được chỉ định
+                    // Tạo đối tượng PdfWriter để ghi dữ liệu vào file PDF
                     PdfWriter.GetInstance(pdfDoc, new FileStream(pdfPath, FileMode.Create));
-
-                    // Mở tài liệu để ghi
                     pdfDoc.Open();
 
-                    // Tạo bảng với số cột tương tự như DataGridView
+                    // Tạo bảng PdfPTable với số cột bằng số cột của DataGridView
                     PdfPTable pdfTable = new PdfPTable(dtgvThongKe.Columns.Count);
 
-                    // Đặt chiều rộng cho các cột
+                    // Đặt độ rộng các cột của bảng
                     float[] widths = new float[dtgvThongKe.Columns.Count];
                     for (int i = 0; i < dtgvThongKe.Columns.Count; i++)
                     {
@@ -129,14 +122,14 @@ namespace GUI
                     }
                     pdfTable.SetWidths(widths);
 
-                    // Thêm tiêu đề từ DataGridView vào bảng PDF
+                    // Thêm tiêu đề các cột vào bảng
                     foreach (DataGridViewColumn column in dtgvThongKe.Columns)
                     {
                         PdfPCell cell = new PdfPCell(new Phrase(column.HeaderText));
                         pdfTable.AddCell(cell);
                     }
 
-                    // Thêm các dòng từ DataGridView vào bảng PDF
+                    // Thêm dữ liệu các dòng vào bảng
                     foreach (DataGridViewRow row in dtgvThongKe.Rows)
                     {
                         foreach (DataGridViewCell cell in row.Cells)
@@ -145,21 +138,30 @@ namespace GUI
                         }
                     }
 
-                    // Thêm bảng vào tài liệu
+                    // Thêm bảng vào tài liệu PDF
                     pdfDoc.Add(pdfTable);
 
+                    // Hiển thị thông báo khi xuất file PDF thành công
                     MessageBox.Show("Dữ liệu đã được xuất ra file PDF thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
                 {
+                    // Hiển thị thông báo lỗi nếu có lỗi xảy ra khi xuất file PDF
                     MessageBox.Show("Có lỗi xảy ra khi xuất file PDF: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {
-                    // Đóng tài liệu
+                    // Đóng tài liệu PDF
                     pdfDoc.Close();
                 }
             }
+        }
+        private void btntimkiem_Click(object sender, EventArgs e)
+        {
+            // Lấy giá trị từ các DateTimePicker và gọi hàm LoadData
+            DateTime ngaybatdau = dtpNgayBatDau.Value;
+            DateTime ngayketthuc = dtpNgayKetThuc.Value;
+            LoadThongKe(ngaybatdau, ngayketthuc);
         }
 
         #endregion
@@ -611,5 +613,7 @@ namespace GUI
         {
 
         }
+
+        
     }
 }
