@@ -46,12 +46,12 @@ namespace GUI
             }
         }
         BUS_NhanVien bUSNhanVien = new BUS_NhanVien();
-
+        
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (txt_taikhoan.Text != "" && txt_matkhau.Text != "")
             {
-                string encryptedPassword = EncryptPassword(txt_matkhau.Text);
+                string encryptedPassword = bUSNhanVien.EncryptPassword(txt_matkhau.Text);
                 if (bUSNhanVien.checklogin(txt_taikhoan.Text, encryptedPassword))
                 {
                     MessageBox.Show("Đăng nhập thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -97,16 +97,7 @@ namespace GUI
             txt_matkhau.Clear();
             Properties.Settings.Default.Reset();
         }
-        private string EncryptPassword(string password)
-        {
-            byte[] encryptedBytes = _md5.ComputeHash(Encoding.UTF8.GetBytes(password));
-            StringBuilder sb = new StringBuilder();
-            foreach (byte b in encryptedBytes)
-            {
-                sb.Append(b.ToString("x2"));
-            }
-            return sb.ToString();
-        }
+       
 
         DAL_NhanVien dAL_NhanVien = new DAL_NhanVien();
 

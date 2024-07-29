@@ -19,6 +19,9 @@ namespace BUS
         {
             return dAL_NhanVien.GetUserRole(email);
         }
-
+        public string EncryptPassword(string password)
+        {
+            return dAL_NhanVien.EncryptPassword(password);
+        }
     }
 }

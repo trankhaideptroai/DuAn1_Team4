@@ -108,3 +108,14 @@ D:\DuAn1\DuAn1_Team4\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\DuAn1\DuAn1_Team4\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\DuAn1\DuAn1_Team4\BUS\obj\Debug\BUS.dll
 D:\DuAn1\DuAn1_Team4\BUS\obj\Debug\BUS.pdb
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\bin\Debug\BUS.dll
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\bin\Debug\BUS.pdb
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\bin\Debug\DAL.dll
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\bin\Debug\DTO.dll
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\bin\Debug\DAL.pdb
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\bin\Debug\DTO.pdb
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\obj\Debug\BUS.dll
+C:\Users\TranTanKhai\Downloads\Newsss\DuAn1_Team4\BUS\obj\Debug\BUS.pdb
