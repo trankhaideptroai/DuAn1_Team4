@@ -28,7 +28,7 @@ namespace DAL
         }
         
         private MD5 _md5 = MD5.Create();
-    private string EncryptPassword(string password)
+    public string EncryptPassword(string password)
         {
             byte[] encryptedBytes = _md5.ComputeHash(Encoding.UTF8.GetBytes(password));
             StringBuilder sb = new StringBuilder();

@@ -25,7 +25,7 @@ namespace GUI
             txt_taikhoan.Text = Properties.Settings.Default.Username;
             txt_matkhau.Text = Properties.Settings.Default.Password;
             txt_matkhau.UseSystemPasswordChar = true;
-            LoadRememberedLogin();
+            
         }
         
 
@@ -55,12 +55,10 @@ namespace GUI
                 if (bUSNhanVien.checklogin(txt_taikhoan.Text, encryptedPassword))
                 {
                     MessageBox.Show("Đăng nhập thành công!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    if (chkGhiNho.Checked)
+                    Properties.Settings.Default.RememberMe = true;
+                    if (chkGhiNho.Checked == true)
                     {
-                        Properties.Settings.Default.Username = txt_taikhoan.Text;
-                        Properties.Settings.Default.Password = txt_matkhau.Text;
-                        Properties.Settings.Default.Save();
+                        chkGhiNho_luu();
                     }
 
                     string email = txt_taikhoan.Text;
@@ -80,9 +78,7 @@ namespace GUI
                     MessageBox.Show("Sai email hoặc mật khẩu!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txt_taikhoan.Clear();
                     txt_matkhau.Clear();
-                    Properties.Settings.Default.Username = txt_taikhoan.Text;
-                    Properties.Settings.Default.Password = txt_matkhau.Text;
-                    Properties.Settings.Default.Save();
+                    Properties.Settings.Default.Reset();
                 }
             }
             else
@@ -108,7 +104,26 @@ namespace GUI
             quenMK.Show();
             this.Hide();
         }
+        private void chkGhiNho_luu()
+        {
+            if (txt_taikhoan.Text != "" && txt_matkhau.Text != "")
 
+            {
+                if (chkGhiNho.Checked == true)
+                {
+                    string users = txt_taikhoan.Text;
+                    string pwd = txt_matkhau.Text;
+                    Properties.Settings.Default.Username = users;
+                    Properties.Settings.Default.Password = pwd;
+                    Properties.Settings.Default.Save();
+                }
+                else
+                {
+                    Properties.Settings.Default.Reset();
+                }
+            }
+
+        }
         private void chkGhiNho_CheckedChanged(object sender, EventArgs e)
         {
             if (txt_taikhoan.Text != "" && txt_matkhau.Text != "")
@@ -143,7 +158,7 @@ namespace GUI
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            LoadRememberedLogin();
         }
     }
 }    
