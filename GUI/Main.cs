@@ -70,7 +70,7 @@ namespace GUI
                     conn.Open();
 
                     // Tạo đối tượng SqlCommand để gọi stored procedure "timkiemTk"
-                    using (SqlCommand cmd = new SqlCommand("timkiemTk", conn))
+                    using (SqlCommand cmd = new SqlCommand("tkThongKeDoanhThuTheoNgay", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         // Thêm tham số @NgayBatDau và @NgayKetThuc vào stored procedure

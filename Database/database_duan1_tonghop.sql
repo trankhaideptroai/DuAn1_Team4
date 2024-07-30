@@ -1,5 +1,5 @@
-CREATE DATABASE qlnhahang
-use qlnhahang
+CREATE DATABASE qlnhahang1
+use qlnhahang1
 
 CREATE TABLE NhanVien
 (
@@ -311,41 +311,15 @@ GO
 
 
 
-CREATE PROCEDURE ThongKeDoanhThuTheoNgay
-AS
-BEGIN
-    SELECT 
-        CONVERT(date, h.dateCheckin) AS Ngay,
-        SUM(hct.SoLuong * ma.Gia) AS TongTien
-    FROM 
-        HoaDon h
-    JOIN 
-        HoaDonChiTiet hct ON h.idHD = hct.idHD
-    JOIN 
-        MonAn ma ON hct.IdMon = ma.IdMon
-    WHERE 
-        h.dateCheckOut IS NOT NULL
-    GROUP BY 
-        CONVERT(date, h.dateCheckOut)
-    ORDER BY 
-        Ngay;
-END
 
-
-
---EXEC ThongKeDoanhThuTheoNgay;
-
-
-
-
-
+-- select * from nhanvien
 
 
 -- Chèn dữ liệu vào bảng NhanVien
 INSERT INTO NhanVien (MaNV, HoTen, SDT, NgaySinh, Email, MatKhau, ChucVu, phai)
 VALUES 
-('NV001', 'Nguyen Van A', '0909123456', '1990-01-01', 'a.nguyen@example.com', 'password123', 'Manager', 'Nam'),
-('NV002', 'Tran Thi B', '0912345678', '1992-02-02', 'b.tran@example.com', 'password123', 'Staff', 'Nu');
+('NV001', 'Nguyen Van A', '0909123456', '1990-01-01', 'abc', 'a123', 'quanly', 'Nam'),
+('NV002', 'Tran Thi B', '0912345678', '1992-02-02', 'def', 'b123', 'nhanvien', 'Nu');
 
 -- Chèn dữ liệu vào bảng BanAn
 INSERT INTO BanAn (tenban, trangthai)
@@ -400,11 +374,11 @@ VALUES
 
 
 
-SELECT f.tenmon, bi.soluong, f.gia, f.gia * bi.soluong as totalPrice FROM dbo.HoaDonChiTiet as bi, dbo.HoaDon as b, dbo.MonAn as f 
-WHERE bi.idHD = b.idHD AND b.TrangThai = 0 AND bi.IdMon = f.idMon AND b.idTable =3
+-- SELECT f.tenmon, bi.soluong, f.gia, f.gia * bi.soluong as totalPrice FROM dbo.HoaDonChiTiet as bi, dbo.HoaDon as b, dbo.MonAn as f 
+-- WHERE bi.idHD = b.idHD AND b.TrangThai = 0 AND bi.IdMon = f.idMon AND b.idTable =3
 go
 --InsertBill
-CREATE OR ALTER PROC sp_InsertBIll @idTable INT
+CREATE or ALTER PROC sp_InsertBIll @idTable INT
 AS
 BEGIN
 	INSERT dbo.HoaDon(dateCheckIn, dateCheckOut, idTable, trangthai)
@@ -451,4 +425,31 @@ BEGIN
 	SELECT * FROM dbo.BanAn
 END
 
+GO-------------
+
+
+
+
+CREATE OR ALTER PROCEDURE tkThongKeDoanhThuTheoNgay
+    @NgayBatDau DATE,
+    @NgayKetThuc DATE
+AS
+BEGIN
+    SELECT 
+        CONVERT(DATE, h.dateCheckin) AS Ngay,
+        SUM(hct.SoLuong * ma.Gia) AS TongTien,
+        COUNT(h.idHD) AS slhd
+    FROM 
+        HoaDon h
+    JOIN 
+        HoaDonChiTiet hct ON h.idHD = hct.idHD
+    JOIN 
+        MonAn ma ON hct.IdMon = ma.IdMon
+    WHERE 
+        h.dateCheckIn BETWEEN @NgayBatDau AND @NgayKetThuc
+    GROUP BY 
+        CONVERT(DATE, h.dateCheckIn)
+    ORDER BY 
+        Ngay;
+END
 
