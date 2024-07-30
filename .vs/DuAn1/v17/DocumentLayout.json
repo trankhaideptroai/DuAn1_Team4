@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\DuAn1\\DuAn1_Team4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|D:\\DuAn1\\DuAn1_Team4\\dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|d:\\duan1\\duan1_team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|D:\\DuAn1\\DuAn1_Team4\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|d:\\duan1\\duan1_team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|D:\\DuAn1\\DuAn1_Team4\\dto\\absnhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|solutionrelative:dto\\absnhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,15 +19,39 @@
       "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|D:\\DuAn1\\DuAn1_Team4\\dal\\inhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\inhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|D:\\DuAn1\\DuAn1_Team4\\dal\\nhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\nhapkho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|D:\\DuAn1\\DuAn1_Team4\\dto\\absnhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A59D30-4753-47B7-98AF-300C8601C2B4}|DTO\\DTO.csproj|solutionrelative:dto\\absnhapkho_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|D:\\DuAn1\\DuAn1_Team4\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|D:\\DuAn1\\DuAn1_Team4\\dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402649EC-5009-43E3-ACF3-94357A8CCD92}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|solutionrelative:gui\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34A75543-229C-43EC-A9D6-AF038F12880F}|GUI\\GUI.csproj|D:\\DuAn1\\DuAn1_Team4\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,7 +81,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "INhapKho_DAL.cs",
+              "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\DAL\\INhapKho_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\INhapKho_DAL.cs",
+              "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\DAL\\INhapKho_DAL.cs",
+              "RelativeToolTip": "DAL\\INhapKho_DAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:11:24.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhapKho_DAL.cs",
+              "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\DAL\\NhapKho_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\NhapKho_DAL.cs",
+              "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\DAL\\NhapKho_DAL.cs",
+              "RelativeToolTip": "DAL\\NhapKho_DAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T12:11:23.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Login.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Login.Designer.cs",
@@ -81,12 +113,11 @@
               "RelativeToolTip": "GUI\\Login.Designer.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAiwIwAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T12:38:41.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T12:38:41.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "GUI",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\GUI.csproj",
               "RelativeDocumentMoniker": "GUI\\GUI.csproj",
@@ -97,58 +128,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "DAL_NhanVien.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\DAL\\DAL_NhanVien.cs",
               "RelativeDocumentMoniker": "DAL\\DAL_NhanVien.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\DAL\\DAL_NhanVien.cs",
               "RelativeToolTip": "DAL\\DAL_NhanVien.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:45:23.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T12:45:23.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Login.cs",
               "RelativeDocumentMoniker": "GUI\\Login.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Login.cs",
               "RelativeToolTip": "GUI\\Login.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAAADoAAAAyAAAA",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAhwDMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:41:30.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T12:41:30.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Login.cs",
               "RelativeDocumentMoniker": "GUI\\Login.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Login.cs [Design]",
               "RelativeToolTip": "GUI\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T12:28:05.674Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-12T12:28:05.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "QuenMK.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\QuenMK.cs",
               "RelativeDocumentMoniker": "GUI\\QuenMK.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\GUI\\QuenMK.cs",
               "RelativeToolTip": "GUI\\QuenMK.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAoAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAADgv38AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T14:13:06.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\DAL\\DataProvider.cs",
               "RelativeDocumentMoniker": "DAL\\DataProvider.cs",
@@ -156,49 +184,45 @@
               "RelativeToolTip": "DAL\\DataProvider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:45:26.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T12:45:26.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "QuenMK.cs [Design]",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\QuenMK.cs",
               "RelativeDocumentMoniker": "GUI\\QuenMK.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\GUI\\QuenMK.cs [Design]",
               "RelativeToolTip": "GUI\\QuenMK.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T14:13:04.28Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-26T14:13:04.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Main.cs",
               "RelativeDocumentMoniker": "GUI\\Main.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Main.cs [Design]",
               "RelativeToolTip": "GUI\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T15:33:35.27Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-26T15:33:35.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Main.cs",
               "RelativeDocumentMoniker": "GUI\\Main.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Main.cs",
               "RelativeToolTip": "GUI\\Main.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwEgAAABVAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAA+wEAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T09:27:01.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T09:27:01.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Resources.resx",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "GUI\\Properties\\Resources.resx",
@@ -206,25 +230,23 @@
               "RelativeToolTip": "GUI\\Properties\\Resources.resx",
               "ViewState": "AQIAAHQAAAAAAAAAAAAAAIkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-26T12:12:56.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T12:12:56.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AbsNhapKho_DTO.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\DTO\\AbsNhapKho_DTO.cs",
               "RelativeDocumentMoniker": "DTO\\AbsNhapKho_DTO.cs",
               "ToolTip": "D:\\DuAn1\\DuAn1_Team4\\DTO\\AbsNhapKho_DTO.cs",
               "RelativeToolTip": "DTO\\AbsNhapKho_DTO.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA+wA0AAAAaAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA8wA0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T05:52:35.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T05:52:35.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Main.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\Main.Designer.cs",
@@ -232,12 +254,11 @@
               "RelativeToolTip": "GUI\\Main.Designer.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAArwIgDAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T09:27:20.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T09:27:20.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DuAn1\\DuAn1_Team4\\GUI\\Program.cs",
               "RelativeDocumentMoniker": "GUI\\Program.cs",

@@ -5,6 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DAL;
 
 namespace GUI
 {
@@ -116,19 +117,17 @@ namespace GUI
 
         private void UpdatePasswordInDatabase(string email, string encryptedPassword)
         {
-            string connectionString = @"Data Source=DESKTOP-3OM6LVM;Initial Catalog=database_duan1;Integrated Security=True"; // Replace with your actual connection string
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection conn = DataProvider.connect())
             {
                 string query = "UPDATE NhanVien SET MatKhau = @MatKhau WHERE Email = @Email";
-                using (SqlCommand command = new SqlCommand(query, connection))
+                using (SqlCommand command = new SqlCommand(query, conn))
                 {
                     command.Parameters.AddWithValue("@MatKhau", encryptedPassword);
                     command.Parameters.AddWithValue("@Email", email);
 
                     try
                     {
-                        connection.Open();
+                        conn.Open();
                         int rowsAffected = command.ExecuteNonQuery();
                         if (rowsAffected > 0)
                         {
